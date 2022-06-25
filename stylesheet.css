@@ -1,0 +1,18 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Literata");
+
+* {
+    font-family: "Literata";
+}
+
+.toc-list, .toc-list ol {
+  list-style-type: none;
+}
+
+.toc-list {
+  padding: 0;
+}
+
+.toc-list ol {
+  padding-inline-start: 2ch;
+}

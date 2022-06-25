@@ -1,10 +1,330 @@
 <!DOCTYPE html>
+
+@import url("https://fonts.googleapis.com/css2?family=Literata");
+
+* {
+    font-family: "Literata";
+}
+
+.toc-list, .toc-list ol {
+  list-style-type: none;
+}
+
+.toc-list {
+  padding: 0;
+}
+
+.toc-list ol {
+  padding-inline-start: 2ch;
+}
+
+
 <html>
   <head>
-    <title>Dashboard test</title>
+    <title>Western Australian Alliance to End Homelessness Outcomes Measurement Framework</title>
   </head>
   <body>
     <h1>Demo dashboard</h1>
+    
+
+
+<!-- role=list necessary because WebKit removes list semantic when list-style-type: none -->
+<ol class="toc-list" role="list">
+
+    <li>
+        <a href="#Introduction">
+            <span class="title">Introduction</span>
+            <span class="page"><span class="visually-hidden">Page&nbsp;5</span>
+        </a>
+        <ol role="list">
+
+            <li>
+                <a href="#Introduction-About-This-Book">
+                    <span class="title">About This Book</span>
+                    <span class="page">Page&nbsp;5</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Introduction-Acknowledgments">
+                    <span class="title">Acknowledgments</span>
+                    <span class="page">Page&nbsp;8</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Introduction-About-the-Author">
+                    <span class="title">About the Author</span>
+                    <span class="page">Page&nbsp;8</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Introduction-Disclaimer">
+                    <span class="title">Disclaimer</span>
+                    <span class="page">Page&nbsp;8</span>
+                </a>
+            </li>
+
+        </ol>
+    </li>
+    <li>
+        <a href="#Promise-Basics">
+            <span class="title">1. Promise Basics</span>
+            <span class="page"><span class="visually-hidden">Page&nbsp;9</span>
+        </a>
+        <ol role="list">
+
+            <li>
+                <a href="#Promise-Basics-The-Promise-Lifecycle">
+                    <span class="title">The Promise Lifecycle</span>
+                    <span class="page">Page&nbsp;17</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Promise-Basics-Creating-New-Unsettled-Promises">
+                    <span class="title">Creating New (Unsettled) Promises<span class="leaders"
+                            aria-hidden="true"></span></span>
+                    <span class="page">Page&nbsp;21</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Promise-Basics-Creating-Settled-Promises">
+                    <span class="title">Creating Settled Promises</span>
+                    <span class="page">Page&nbsp;24</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Promise-Basics-Summary">
+                    <span class="title">Summary</span>
+                    <span class="page">Page&nbsp;27</span>
+                </a>
+            </li>
+
+        </ol>
+    </li>
+    <li>
+        <a href="#Chaining-Promises">
+            <span class="title">2. Chaining Promises</span>
+            <span class="page"><span class="visually-hidden">Page&nbsp;28</span>
+        </a>
+        <ol role="list">
+
+            <li>
+                <a href="#Chaining-Promises-Catching-Errors">
+                    <span class="title">Catching Errors</span>
+                    <span class="page">Page&nbsp;30</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Chaining-Promises-Using-finally-in-Promise-Chains">
+                    <span class="title">Using finally() in Promise Chains<span class="leaders"
+                            aria-hidden="true"></span></span>
+                    <span data-href="#Chaining-Promises-Using-finally-in-Promise-Chains"
+                        class="page">Page&nbsp;34</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Chaining-Promises-Returning-Values-in-Promise-Chains">
+                    <span class="title">Returning Values in Promise Chains<span class="leaders"
+                            aria-hidden="true"></span></span>
+                    <span data-href="#Chaining-Promises-Returning-Values-in-Promise-Chains"
+                        class="page">Page&nbsp;35</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Chaining-Promises-Returning-Promises-in-Promise-Chains">
+                    <span class="title">Returning Promises in Promise Chains<span class="leaders"
+                            aria-hidden="true"></span></span>
+                    <span data-href="#Chaining-Promises-Returning-Promises-in-Promise-Chains"
+                        class="page">Page&nbsp;42</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Chaining-Promises-Summary">
+                    <span class="title">Summary</span>
+                    <span class="page">Page&nbsp;43</span>
+                </a>
+            </li>
+
+        </ol>
+    </li>
+    <li>
+        <a href="#Working-with-Multiple-Promises">
+            <span class="title">3. Working with Multiple Promises</span>
+            <span class="page"><span
+                    class="visually-hidden">Page&nbsp;43</span>
+        </a>
+        <ol role="list">
+
+            <li>
+                <a href="#Working-with-Multiple-Promises-The-Promiseall-Method">
+                    <span class="title">The Promise.all() Method</span>
+                    <span data-href="#Working-with-Multiple-Promises-The-Promiseall-Method"
+                        class="page">Page&nbsp;51</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Working-with-Multiple-Promises-The-PromiseallSettled-Method">
+                    <span class="title">The Promise.allSettled() Method<span class="leaders"
+                            aria-hidden="true"></span></span>
+                    <span data-href="#Working-with-Multiple-Promises-The-PromiseallSettled-Method"
+                        class="page">Page&nbsp;57</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Working-with-Multiple-Promises-The-Promiseany-Method">
+                    <span class="title">The Promise.any() Method</span>
+                    <span data-href="#Working-with-Multiple-Promises-The-Promiseany-Method"
+                        class="page">Page&nbsp;61</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Working-with-Multiple-Promises-The-Promiserace-Method">
+                    <span class="title">The Promise.race() Method</span>
+                    <span data-href="#Working-with-Multiple-Promises-The-Promiserace-Method"
+                        class="page">Page&nbsp;65</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Working-with-Multiple-Promises-Summary">
+                    <span class="title">Summary</span>
+                    <span class="page">Page&nbsp;67</span>
+                </a>
+            </li>
+
+        </ol>
+    </li>
+    <li>
+        <a href="#Async-Functions-and-Await-Expressions">
+            <span class="title">4. Async Functions and Await Expressions<span class="leaders"
+                    aria-hidden="true"></span></span>
+            <span class="page"><span
+                    class="visually-hidden">Page&nbsp;67</span>
+        </a>
+        <ol role="list">
+
+            <li>
+                <a href="#Async-Functions-and-Await-Expressions-Defining-Async-Functions">
+                    <span class="title">Defining Async Functions</span>
+                    <span data-href="#Async-Functions-and-Await-Expressions-Defining-Async-Functions"
+                        class="page">Page&nbsp;69</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Async-Functions-and-Await-Expressions-What-Makes-Async-Functions-Different">
+                    <span class="title">What Makes Async Functions Different<span class="leaders"
+                            aria-hidden="true"></span></span>
+                    <span data-href="#Async-Functions-and-Await-Expressions-What-Makes-Async-Functions-Different"
+                        class="page"><span class="visually-hidden">Page&nbsp;81</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Async-Functions-and-Await-Expressions-Summary">
+                    <span class="title">Summary</span>
+                    <span class="page">Page&nbsp;83</span>
+                </a>
+            </li>
+
+        </ol>
+    </li>
+    <li>
+        <a href="#Unhandled-Rejection-Tracking">
+            <span class="title">5. Unhandled Rejection Tracking</span>
+            <span class="page"><span
+                    class="visually-hidden">Page&nbsp;83</span>
+        </a>
+        <ol role="list">
+
+            <li>
+                <a href="#Unhandled-Rejection-Tracking-Detecting-Unhandled-Rejections">
+                    <span class="title">Detecting Unhandled Rejections<span class="leaders"
+                            aria-hidden="true"></span></span>
+                    <span data-href="#Unhandled-Rejection-Tracking-Detecting-Unhandled-Rejections"
+                        class="page">Page&nbsp;85</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Unhandled-Rejection-Tracking-Web-Browser-Unhandled-Rejection-Tracking">
+                    <span class="title">Web Browser Unhandled Rejection Tracking<span class="leaders"
+                            aria-hidden="true"></span></span>
+                    <span data-href="#Unhandled-Rejection-Tracking-Web-Browser-Unhandled-Rejection-Tracking"
+                        class="page"><span class="visually-hidden">Page&nbsp;90</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Unhandled-Rejection-Tracking-Nodejs-Unhandled-Rejection-Tracking">
+                    <span class="title">Node.js Unhandled Rejection Tracking<span class="leaders"
+                            aria-hidden="true"></span></span>
+                    <span data-href="#Unhandled-Rejection-Tracking-Nodejs-Unhandled-Rejection-Tracking"
+                        class="page">Page&nbsp;94</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Unhandled-Rejection-Tracking-Summary">
+                    <span class="title">Summary</span>
+                    <span class="page">Page&nbsp;95</span>
+                </a>
+            </li>
+
+        </ol>
+    </li>
+    <li>
+        <a href="#Final-Thoughts">
+            <span class="title">Final Thoughts</span>
+            <span class="page"><span class="visually-hidden">Page&nbsp;96</span>
+        </a>
+        <ol role="list">
+
+            <li>
+                <a href="#Final-Thoughts-Download-the-Extras">
+                    <span class="title">Download the Extras</span>
+                    <span class="page">Page&nbsp;96</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Final-Thoughts-Support-the-Author">
+                    <span class="title">Support the Author</span>
+                    <span class="page">Page&nbsp;96</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Final-Thoughts-Help-and-Support">
+                    <span class="title">Help and Support</span>
+                    <span class="page">Page&nbsp;97</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#Final-Thoughts-Follow-the-Author">
+                    <span class="title">Follow the Author</span> data-href="#Final-Thoughts-Follow-the-Author"
+                    class="page">Page&nbsp;102</span>
+                </a>
+            </li>
+
+        </ol>
+    </li>
+</ol>
+
+
 
     <iframe title="WAAEH Power BI dashboard" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=26888884-3f92-4d63-8c3f-1944c49e15b5&autoAuth=true&ctid=05894af0-cb28-46d8-8716-74cdb46e2226&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWF1c3RyYWxpYS1zb3V0aGVhc3QtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" frameborder="0" allowFullScreen="true"></iframe>
     

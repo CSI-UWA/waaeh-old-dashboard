@@ -352,12 +352,14 @@ Header & Menu CSS
 }
 #main-menu {
 	position: fixed;
+	width: 140px;
 	padding-top: 80px;
 	padding-left: 20px;
 	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
 	overflow-y: scroll;
 	top: 0;
   	bottom: 0;
+	word-wrap: break-word;
 }
 #main-menu a {
 	color: #707070;
@@ -369,7 +371,6 @@ Header & Menu CSS
 }
 #main-menu li {
 	padding: 2px 0 2px 0;
-	word-wrap: break-word;
 }
 #main-menu .selected {
 	color: #121212;

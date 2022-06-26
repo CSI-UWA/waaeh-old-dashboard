@@ -82,7 +82,6 @@ Import fonts
 @font-face {
     font-family: Apud-Roman;
     src: url("./DSType - Apud-Roman.otf") format('truetype');
-    font-weight: bold;
     font-style: normal;
 }
 
@@ -91,7 +90,6 @@ Import fonts
 @font-face {
     font-family: Apud-Medium;
     src: url("./DSType - Apud-Medium.otf") format('truetype');
-    font-weight: bold;
     font-style: normal;
 }
 

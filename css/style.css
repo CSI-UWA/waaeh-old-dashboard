@@ -348,11 +348,11 @@ Header & Menu CSS
 	height: 100%;
 	padding-top: 50px;
 	float: left;
-	width: 10px;
+	width: 100px;
 }
 #main-menu {
 	position: fixed;
-	padding-top: 50px;
+	padding-top: 100px;
 	padding-left: 20px;
 	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
 	word-wrap: break-word;

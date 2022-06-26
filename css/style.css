@@ -120,7 +120,7 @@ General CSS
 ******************************************************************/
 									
 #content {
-	width: 720px;
+	width: 900px;
 	padding-top: 20px;
 	margin-left: 260px;
 	z-index: 1;
@@ -365,7 +365,7 @@ Blockquote
 
 .blockquote{
   font-size: 1.4em;
-  width:40%;
+  width:70%;
   margin:50px auto;
   font-style:italic;
   color: #555555;

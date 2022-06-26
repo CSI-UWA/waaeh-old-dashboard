@@ -355,7 +355,8 @@ Header & Menu CSS
 	width: 200px;
 	padding-top: 80px;
 	padding-left: 20px;
-	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
 	overflow-y: scroll;
 	top: 0;

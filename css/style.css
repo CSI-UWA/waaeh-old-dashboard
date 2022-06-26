@@ -366,13 +366,13 @@ Blockquote
 .blockquote{
   font-size: 1.4em;
   width:70%;
-  margin:50px auto;
+  margin:20px auto;
   font-style:italic;
   color: #555555;
   padding:20px 30px 20px 30px;
   border-left:5px solid #005BAA ;
   line-height:1.6;
-  position: static;
+  position: relative;
   background:#EDEDED;
 }
 

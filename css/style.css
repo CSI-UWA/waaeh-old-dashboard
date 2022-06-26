@@ -348,11 +348,11 @@ Header & Menu CSS
 	height: 100%;
 	padding-top: 50px;
 	float: left;
-	width: 140px;
+	width: 200px;
 }
 #main-menu {
 	position: fixed;
-	width: 149px;
+	width: 200px;
 	padding-top: 80px;
 	padding-left: 20px;
 	padding-bottom: 20px;
@@ -360,6 +360,7 @@ Header & Menu CSS
 	overflow-y: scroll;
 	top: 0;
   	bottom: 0;
+	overflow-wrap: break-word;
 	word-wrap: break-word;
 }
 #main-menu a {

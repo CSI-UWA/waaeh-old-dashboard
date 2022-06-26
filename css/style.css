@@ -346,15 +346,15 @@ Header & Menu CSS
 }
 #menu-wrapper {
 	height: 100%;
-	padding-top: 120px;
+	padding-top: 80px;
 	float: left;
-	width: 140px;
+	width: 150px;
 	overflow-wrap:
 }
 #main-menu {
 	position: fixed;
-	padding-top: 60px;
-	padding-left: 40px;
+	padding-top: 20px;
+	padding-left: 20px;
 	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
 }
 #main-menu a {

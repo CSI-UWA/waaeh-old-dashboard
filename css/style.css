@@ -73,53 +73,53 @@ General CSS
 #content {
 	width: 720px;
 	padding-top: 170px;
-	margin-left: 500px;
+	margin-left: 250px;
 	z-index: 1;
 }
 p {
 	font-family: Verdana, Arial, sans-serif;
-	line-height: 1.6em;
+	line-height: 1.5em;
 	color: #848484;
 	font-size: 8pt;
 }
 h1 {
 	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
-	line-height: 1.6em;
+	line-height: 1.5em;
 	color: #454544;
 	text-decoration: none;
 	font-size: 22pt;
 }
 h2 {
 	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
-	line-height: 1.6em;
+	line-height: 1.5em;
 	color: #454544;
 	text-decoration: none;
 	font-size: 18pt;
 }
 h3 {
 	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
-	line-height: 1.6em;
+	line-height: 1.5em;
 	color: #454544;
 	text-decoration: none;
 	font-size: 16pt;
 }
 h4 {
 	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
-	line-height: 1.6em;
+	line-height: 1.5em;
 	color: #454544;
 	text-decoration: none;
 	font-size: 14pt;
 }
 h5 {
 	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
-	line-height: 1.6em;
+	line-height: 1.5em;
 	color: #454544;
 	text-decoration: none;
 	font-size: 12pt;
 }
 h6 {
 	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
-	line-height: 1.6em;
+	line-height: 1.5em;
 	color: #454544;
 	text-decoration: none;
 	font-size: 10pt;
@@ -348,7 +348,7 @@ Header & Menu CSS
 	height: 100%;
 	padding-top: 50px;
 	float: left;
-	width: 150px;
+	width: 100px;
 }
 #main-menu {
 	position: fixed;
@@ -356,6 +356,9 @@ Header & Menu CSS
 	padding-left: 20px;
 	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
 	word-wrap: break-word;
+	overflow-y: scroll;
+	top: 0;
+  	bottom: 0;
 }
 #main-menu a {
 	color: #707070;

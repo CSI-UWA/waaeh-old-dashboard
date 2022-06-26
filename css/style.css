@@ -75,6 +75,7 @@ General CSS
 	padding-top: 20px;
 	margin-left: 250px;
 	z-index: 1;
+	float: left;
 }
 p {
 	font-family: Verdana, Arial, sans-serif;

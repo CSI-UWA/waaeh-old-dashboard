@@ -352,7 +352,7 @@ Header & Menu CSS
 }
 #main-menu {
 	position: fixed;
-	padding-top: 20px;
+	padding-top: 50px;
 	padding-left: 20px;
 	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
 	word-wrap: break-word;

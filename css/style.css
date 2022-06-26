@@ -327,4 +327,36 @@ For easy editing (the main Nivo CSS is in nivo-theme.css)
 	left: 160px;
 }
 
+/******************************************************************
+Dividers
+******************************************************************/
+}
+.spacer {
+	height: 1px;
+	clear: both;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #d6d6d6;
+	margin: 20px 5px 20px 5px;
+}
+.blank-spacer {
+	width: 720px;
+	height: 1px;
+	clear: both;
+	margin: 10px 5px 10px 5px;
+	padding: 10px 5px 10px 5px;
+}
+.star-divider {
+	background-image:url(../images/star_divider.png);
+	text-align: center;
+	display: block;
+	clear: both;
+	height: 16px;
+	width: 430px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	background-repeat: no-repeat;
+}
 

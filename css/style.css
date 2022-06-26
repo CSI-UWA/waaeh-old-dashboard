@@ -355,9 +355,7 @@ Header & Menu CSS
 	padding-top: 80px;
 	padding-left: 20px;
 	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
-	word-wrap: break-word;
 	overflow-y: scroll;
-	width: 140px;
 	top: 0;
   	bottom: 0;
 }
@@ -371,6 +369,7 @@ Header & Menu CSS
 }
 #main-menu li {
 	padding: 2px 0 2px 0;
+	word-wrap: break-word;
 }
 #main-menu .selected {
 	color: #121212;

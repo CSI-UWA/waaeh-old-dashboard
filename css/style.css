@@ -44,6 +44,10 @@ table {
 	border-spacing: 0;
 }
 
+ol, ul {
+	list-style: none;
+}
+
 .toc-list, .toc-list ol {
   list-style-type: none;
 }

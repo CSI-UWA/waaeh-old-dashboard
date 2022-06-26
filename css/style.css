@@ -360,7 +360,6 @@ Header & Menu CSS
 	overflow-y: scroll;
 	top: 0;
   	bottom: 0;
-	overflow-wrap: break-word;
 	word-wrap: break-word;
 }
 #main-menu a {

@@ -73,9 +73,8 @@ General CSS
 #content {
 	width: 720px;
 	padding-top: 20px;
-	margin-left: 250px;
+	margin-left: 260px;
 	z-index: 1;
-	float: right;
 }
 p {
 	font-family: Verdana, Arial, sans-serif;

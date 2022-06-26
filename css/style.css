@@ -350,6 +350,7 @@ Header & Menu CSS
 	float: left;
 	width: 200px;
 	word-wrap: break-word;
+	border: 2px;
 }
 #main-menu {
 	position: fixed;

@@ -174,57 +174,8 @@ h6 {
 	font-size: 10pt;
 }
 /******************************************************************
-Header & Menu CSS
+Menu CSS
 ******************************************************************/
-
-#header-wrapper {
-	position: fixed;
-	background-color: #FFF;
-	width: 100%;
-	height: 120px;
-	top: 0px;
-	border-bottom: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #d8d8d8;
-	z-index: 5000;
-}
-#header {
-	width: 960px;
-}
-#logo {
-	float: left;
-	width: 100px;
-	padding: 20px 0 10px 40px;
-}
-#header-text {
-	width: 480px;
-	padding-top: 40px;
-	margin-left: 240px;
-	display: block;
-	height: 20px;
-}
-#header-text h6 {
-	font-size: 7pt;
-	color: #d8d8d8;
-}
-#header-text a {
-	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
-	color: #d8d8d8;
-	text-decoration: none;
-	font-size: 7pt;
-}
-#social-box {
-	width: 96px;
-	height: 22px;
-	position: fixed;
-	bottom: 40px;
-	left: 30px;
-}
-#social-box li {
-	float: left;
-	padding-left: 6px;
-	display: inline;
-}
 #menu-wrapper {
 	height: 100%;
 	padding-top: 50px;
@@ -264,57 +215,7 @@ Header & Menu CSS
 	bottom: 10px;
 	left: 20px;
 }
-.rss a {
-	background-image: url(../images/rss.png);
-	background-position: 0 0px;
-	display: block;
-	height: 22px;
-	padding-left: 24px;
-	background-repeat: no-repeat
-}
-.rss a:hover {
-	background-position: 0 -26px;
-	color: #444444;
-}
-#slide-panel {
-	position: fixed;
-	top: 120px;
-	left: 240px;
-	height: 420px;
-	width: 720px;
-	display: none;
-	border-width: 1px;
-	border-style: solid;
-	border-color: #e2e2e2;
-	background-color: #FFF;
-	margin: auto;
-	text-align: center;
-	margin-bottom: 5px;
-	z-index: 6000;
-}
-.slide {
-	background-image: url(../images/slide_button.png);
-	background-repeat: no-repeat;
-	position: fixed;
-	top: 33px;
-	left: 800px;
-	z-index: 5000;
-}
-.btn-slide {
-	text-align: center;
-	width: 120px;
-	height: 60px;
-	display: block;
-	color: #fff;
-	text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bold;
-	font-size: 1em;
-	margin-right: auto;
-	margin-left: auto;
-	line-height: 22px;
-	z-index: 5000;
-}
+
 /******************************************************************
 Some Nivo Customization CSS
 For easy editing (the main Nivo CSS is in nivo-theme.css)
@@ -382,7 +283,7 @@ Blockquote
   top:-10px;
 }
 
-.::after{
+.blockquote::after{
   content: '';
 }
 

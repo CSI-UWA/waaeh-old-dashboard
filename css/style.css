@@ -366,7 +366,7 @@ Header & Menu CSS
 	color: #121212;
 }
 #main-menu li {
-	padding: 5px 0 5px 0;
+	padding: 2px 0 2px 0;
 }
 #main-menu .selected {
 	color: #121212;
@@ -376,30 +376,6 @@ Header & Menu CSS
 	position: fixed;
 	bottom: 10px;
 	left: 20px;
-}
-.facebook a {
-	background-image: url(../images/facebook.png);
-	background-position: 0 0px;
-	display: block;
-	height: 22px;
-	padding-left: 24px;
-	background-repeat: no-repeat
-}
-.facebook a:hover {
-	background-position: 0 -26px;
-	color: #444444;
-}
-.twitter a {
-	background-image: url(../images/twitter.png);
-	background-position: 0 0px;
-	display: block;
-	height: 22px;
-	padding-left: 24px;
-	background-repeat: no-repeat
-}
-.twitter a:hover {
-	background-position: 0 -26px;
-	color: #444444;
 }
 .rss a {
 	background-image: url(../images/rss.png);
@@ -478,21 +454,6 @@ For easy editing (the main Nivo CSS is in nivo-theme.css)
 	left: 160px;
 }
 
-/******************************************************************
-About us CSS
-******************************************************************/
-
-.about {
-	padding-top: 25px;
-	width: 720px;
-	padding-bottom: 50px;
-}
-.about p {
-	text-align: justify;
-}
-.team-text {
-	text-align: center;
-}
 
 /******************************************************************
 This is the buttons and inputs CSS

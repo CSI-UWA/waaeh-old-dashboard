@@ -99,13 +99,13 @@ a.rm, a.com {
 .header_resize {
 	margin:0 auto;
 	padding:0;
-	width:970px;
+	width:1300px;
 }
 .menu_nav {
 	margin:0 auto;
 	padding:0 20px;
 	float:left;
-	width:930px;
+	width:1230px;
 	border-bottom:1px dashed #ddd;
 	border-top:1px dashed #ddd;
 }
@@ -140,7 +140,7 @@ a.rm, a.com {
 .content_resize {
 	margin:0 auto;
 	padding:0;
-	width:970px;
+	width:1300px;
 }
 .content .mainbar {
 	margin:0;
@@ -286,7 +286,7 @@ ul.ex_menu li a:hover {
 	float:left;
 }
 .footer {
-	width:970px;
+	width:1300px;
 	margin:0 auto;
 	padding:40px 0;
 }

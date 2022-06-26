@@ -71,7 +71,7 @@ General CSS
 ******************************************************************/
 									
 #content {
-	width: 70%;
+	width: 720px;
 	padding-top: 20px;
 	margin-left: 250px;
 	z-index: 1;
@@ -348,7 +348,7 @@ Header & Menu CSS
 	height: 100%;
 	padding-top: 50px;
 	float: left;
-	width: 30%;
+	width: 140px;
 }
 #main-menu {
 	position: fixed;
@@ -357,6 +357,7 @@ Header & Menu CSS
 	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
 	word-wrap: break-word;
 	overflow-y: scroll;
+	width: 140px;
 	top: 0;
   	bottom: 0;
 }

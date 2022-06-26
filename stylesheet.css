@@ -133,45 +133,7 @@ a.rm, a.com {
 	background:top repeat-x;
 	text-decoration:underline;
 }
-.search {
-	float:right;
-	margin:0;
-	padding:45px 0 0 0;
-	width:300px;
-}
-.search form {
-	padding:0;
-	margin:0;
-}
-.search span {
-	display:block;
-	float:left;
-	background:#fff;
-	border:1px solid #e9e9e9;
-	width:250px;
-	padding:0 10px;
-	height:29px;
-	margin:0;
-}
-.search form .keywords {
-	width:220px;
-	line-height:13px;
-	height:13px;
-	float:left;
-	background:none;
-	border:0;
-	padding:8px 0px;
-	margin:0;
-	font:normal 11px Arial, Helvetica, sans-serif;
-	color:#a5a4a4;
-}
-.search form .button {
-	float:left;
-	margin:0;
-	padding:3px 0 0 0;
-	border:0;
-	position:relative;
-}
+
 .content {
 	padding:10px 0 0 0;
 }
@@ -182,10 +144,10 @@ a.rm, a.com {
 }
 .content .mainbar {
 	margin:0;
-	float:left;
+	float:right;
 }
 .content .mainbar img {
-	float:left;
+	float:right;
 	padding:4px;
 	margin:0 10px 0 0;
 	border:1px solid #eaecec;
@@ -194,7 +156,7 @@ a.rm, a.com {
 .content .mainbar .article {
 	margin:0 0 20px 0;
 	padding:30px 20px;
-	width:610px;
+	width:800px;
 	border:1px dashed #ddd;
 }
 .content .mainbar .article span.butons a {
@@ -221,7 +183,7 @@ a.rm, a.com {
 .content .sidebar {
 	margin:0;
 	padding:0;
-	float:right;
+	float:left;
 }
 .content .sidebar .gadget {
 	margin:0 0 20px 0;

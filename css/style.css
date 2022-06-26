@@ -372,6 +372,7 @@ Blockquote
   padding:20px 30px 20px 30px;
   border-left:5px solid #005BAA ;
   line-height:1.6;
+  position: static;
   background:#EDEDED;
 }
 

@@ -398,7 +398,7 @@ Blockquote
 Tables
 ******************************************************************/
 
-.table {
+table {
     border-collapse: collapse;
     margin: 30px 30px;
     font-size: 0.9em;
@@ -407,25 +407,25 @@ Tables
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-.table thead tr {
+table thead tr {
     background-color: #005BAA;
     color: #ffffff;
 }
 
-.table th,
-.table td {
+table th,
+table td {
     padding: 12px 15px;
 }
 
-.table tbody tr {
+table tbody tr {
     border-bottom: 1px solid #dddddd;
 }
 
-.table tbody tr:nth-of-type(even) {
+table tbody tr:nth-of-type(even) {
     background-color: #f3f3f3;
 }
 
-.table tbody tr:last-of-type {
+table tbody tr:last-of-type {
     border-bottom: 2px solid #b5b5b5;
 }
 

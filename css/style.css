@@ -348,9 +348,7 @@ Header & Menu CSS
 	height: 100%;
 	padding-top: 50px;
 	float: left;
-	width: 200px;
-	word-wrap: break-word;
-	border: 2px;
+	width: 150px;
 }
 #main-menu {
 	position: fixed;

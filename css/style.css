@@ -73,7 +73,7 @@ Import fonts
 
 @font-face {
     font-family: Apud-Black;
-    src: url("../../waeehdashdemo/DSType - Apud-Black.otf") format('truetype');
+    src: url("./DSType - Apud-Black.otf") format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -81,7 +81,7 @@ Import fonts
 
 @font-face {
     font-family: Apud-Roman;
-    src: url("../../waeehdashdemo/DSType - Apud-Roman.otf") format('truetype');
+    src: url("./DSType - Apud-Roman.otf") format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -90,14 +90,14 @@ Import fonts
 
 @font-face {
     font-family: Apud-Medium;
-    src: url("../../waeehdashdemo/DSType - Apud-Medium.otf") format('truetype');
+    src: url("./DSType - Apud-Medium.otf") format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: Apud-BoldItalic;
-    src: url("../../waeehdashdemo/DSType - Apud-BoldItalic.otf") format('truetype');
+    src: url("./DSType - Apud-BoldItalic.otf") format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -127,35 +127,35 @@ h1 {
 	font-size: 22pt;
 }
 h2 {
-	font-family: 'Droid Serif', Apud-Medium, sans-serif;
+	font-family: 'Droid Serif', Apud-BoldItalic, sans-serif;
 	line-height: 1.5em;
 	color: #454544;
 	text-decoration: none;
 	font-size: 18pt;
 }
 h3 {
-	font-family: 'Droid Serif',Apud-Black, sans-serif;
+	font-family: 'Droid Serif',Apud-Medium, sans-serif;
 	line-height: 1.5em;
 	color: #454544;
 	text-decoration: none;
 	font-size: 16pt;
 }
 h4 {
-	font-family: 'Droid Serif', Apud-Black, sans-serif;
+	font-family: 'Droid Serif', Apud-Medium, sans-serif;
 	line-height: 1.5em;
 	color: #454544;
 	text-decoration: none;
 	font-size: 14pt;
 }
 h5 {
-	font-family: 'Droid Serif', Apud-Black, sans-serif;
+	font-family: 'Droid Serif', Apud-Medium, sans-serif;
 	line-height: 1.5em;
 	color: #454544;
 	text-decoration: none;
 	font-size: 11pt;
 }
 h6 {
-	font-family: 'Droid Serif', Apud-Black, sans-serif;
+	font-family: 'Droid Serif', Apud-Medium, sans-serif;
 	line-height: 1.5em;
 	color: #454544;
 	text-decoration: none;

@@ -34,13 +34,6 @@ table {
   list-style-type: none;
 }
 
-.toc-list {
-  padding: 0;
-}
-
-.toc-list ol {
-  padding-inline-start: 2ch;
-}
 
 #content {
 	width: 900px;
@@ -106,7 +99,7 @@ table {
 }
 
 table thead tr {
-    background-color: #000000;
+    background-color: #71dbcb;
     color: #ffffff;
 }
 

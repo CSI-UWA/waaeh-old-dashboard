@@ -366,7 +366,7 @@ Blockquote
 .blockquote{
   font-size: 1.4em;
   width:70%;
-  margin:20px auto;
+  margin:20px;
   font-style:italic;
   color: #555555;
   padding:20px 30px 20px 30px;

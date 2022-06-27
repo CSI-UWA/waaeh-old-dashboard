@@ -1,23 +1,94 @@
+/******************************************************************
+*******************************************************************
 
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
+Template Name: Effe
+Theme URI: http://www.92five.net
+Description: Personal Blog
+Author: 92five
+Author URI: http://www.92five.net
+Version: 1.0
+							
+Designed & Handcrafted by 92five for 92five.net
+									
+*******************************************************************
+******************************************************************/
+									
+.toc-list, .toc-list ol {
+  list-style-type: none;
 }
-body {
-	line-height: 1;
+
+.toc-list {
+  padding: 0;
 }
 
-ol, ul {
-	list-style: none;
+.toc-list ol {
+  padding-inline-start: 2ch;
+}
+/******************************************************************
+TEXT SELECTION STYLES
+******************************************************************/
+/* Safari, Chrome, iPhones, iPads */
+::selection {
+ background:#E095B4;
+ color:#fff;
+}
+::-moz-selection {
+ background:#E095B4;
+ color:#fff;
+}
+::-webkit-selection {
+ background:#E095B4;
+ color:#fff;
+}
+a {
+	color: #E095B4;
+	outline: none;
+}
+
+/******************************************************************
+Import fonts
+******************************************************************/
+
+@font-face {
+    font-family: Apud-Black;
+    src: url("../font/DSType - Apud-Black.otf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
 
 
+@font-face {
+    font-family: Apud-Roman;
+    src: url("../font/DSType - Apud-Roman.otf") format('truetype');
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: Apud-Medium;
+    src: url("../font/DSType - Apud-Medium.otf") format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Apud-BoldItalic;
+    src: url("../font/DSType - Apud-BoldItalic.otf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
 
 
 /******************************************************************
 General CSS
 ******************************************************************/
-
+									
+#content {
+	width: 900px;
+	padding-top: 20px;
+	margin-left: 260px;
+	z-index: 1;
+}
 p {
 	font-family: Apud-Roman;
 	line-height: 1.5em;
@@ -66,19 +137,145 @@ h6 {
 	text-decoration: none;
 	font-size: 10pt;
 }
+/******************************************************************
+Menu CSS
+******************************************************************/
+#menu-wrapper {
+	height: 100%;
+	padding-top: 50px;
+	float: left;
+	width: 200px;
+}
+#main-menu {
+	position: fixed;
+	width: 200px;
+	padding-top: 80px;
+	padding-left: 20px;
+	padding-left: 20px;
+	padding-right: 30px;
+	font-family: 'Droid Serif', Apud-Medium, sans-serif;
+	overflow-y: scroll;
+	top: 0;
+  	bottom: 0;
+	word-wrap: break-word;
+}
+#main-menu a {
+	color: #707070;
+	text-decoration: none;
+	font-size: 14pt;
+}
+#main-menu a:hover {
+	color: #121212;
+}
+#main-menu li {
+	padding: 2px 0 2px 0;
+}
+#main-menu .selected {
+	color: #121212;
+}
+#footer h6 {
+	font-size: 10px;
+	position: fixed;
+	bottom: 10px;
+	left: 20px;
+}
 
+/******************************************************************
+Some Nivo Customization CSS
+For easy editing (the main Nivo CSS is in nivo-theme.css)
+******************************************************************/
 
+.theme-effe .nivo-caption {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 14px;
+}
+.theme-effe .nivo-caption h1 {
+	padding: 50px 10px 5px 10px;
+}
+.theme-effe .nivo-caption p {
+	padding: 5px 20px 20px 20px;
+	text-align: justify;
+}
+.theme-effe .nivo-caption .readmore {
+	position: absolute;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 16px;
+	color: #999;
+	text-decoration: none;
+	bottom: 20px;
+	left: 160px;
+}
+
+/******************************************************************
+Dividers
+******************************************************************/
+.spacer {
+	height: 1px;
+	clear: both;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #d6d6d6;
+	margin: 20px 5px 20px 5px;
+}
+.blank-spacer {
+	height: 1px;
+	clear: both;
+	margin: 10px 5px 10px 5px;
+	padding: 10px 5px 10px 5px;
+}
+
+/******************************************************************
+Blockquote
+******************************************************************/
+
+.blockquote{
+  font-size: 1.4em;
+  width:70%;
+  margin:20px;
+  font-style:italic;
+  color: #555555;
+  padding:20px 30px 20px 30px;
+  border-left:5px solid #005BAA ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+.blockquote::before{
+  position: absolute;
+  left: 5px;
+  top:-10px;
+}
+
+.blockquote::after{
+  content: '';
+}
+
+.blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+
+/******************************************************************
+Tables
+******************************************************************/
 table {
     border-collapse: collapse;
     margin: 30px 30px;
     font-size: 0.9em;
+    font-family: Apud-Roman;
     min-width: 650px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    line-height: 1.6;
 }
 
 table thead tr {
-    background-color: #000000;
+    background-color: #005BAA;
     color: #ffffff;
+    font-weight:bold;
 }
 
 table th,
@@ -98,14 +295,4 @@ table tbody tr:last-of-type {
     border-bottom: 2px solid #b5b5b5;
 }
 
-.toc-list, .toc-list ol {
-  list-style-type: none;
-}
 
-.toc-list {
-  padding: 0;
-}
-
-.toc-list ol {
-  padding-inline-start: 2ch;
-}

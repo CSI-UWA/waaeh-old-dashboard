@@ -26,10 +26,6 @@ blockquote:before, blockquote:after, q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 
 
@@ -96,7 +92,7 @@ table {
 }
 
 table thead tr {
-    background-color: #FFFFFF;
+    background-color: #000000;
     color: #ffffff;
 }
 

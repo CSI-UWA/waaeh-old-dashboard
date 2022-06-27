@@ -1,5 +1,62 @@
 
 
+
+
+
+/******************************************************************
+General CSS
+******************************************************************/
+
+p {
+	font-family: Apud-Roman;
+	line-height: 1.5em;
+	color: #000000;
+	font-size: 11pt;
+}
+h1 {
+	font-family: 'Droid Serif', Apud-Black, sans-serif;
+	line-height: 1.5em;
+	color: #25408F;
+	text-decoration: none;
+	font-size: 22pt;
+}
+h2 {
+	font-family: 'Droid Serif', Apud-BoldItalic, sans-serif;
+	line-height: 1.5em;
+	color: #25408F;
+	text-decoration: none;
+	font-size: 18pt;
+}
+h3 {
+	font-family: 'Droid Serif',Apud-Medium, sans-serif;
+	line-height: 1.5em;
+	color: #25408F;
+	text-decoration: none;
+	font-size: 16pt;
+}
+h4 {
+	font-family: 'Droid Serif', Apud-Medium, sans-serif;
+	line-height: 1.5em;
+	color: #25408F;
+	text-decoration: none;
+	font-size: 14pt;
+}
+h5 {
+	font-family: 'Droid Serif', Apud-Medium, sans-serif;
+	line-height: 1.5em;
+	color: #25408F;
+	text-decoration: none;
+	font-size: 11pt;
+}
+h6 {
+	font-family: 'Droid Serif', Apud-Medium, sans-serif;
+	line-height: 1.5em;
+	color: #25408F;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+
 table {
     border-collapse: collapse;
     margin: 30px 30px;
@@ -9,7 +66,7 @@ table {
 }
 
 table thead tr {
-    background-color: #FFFFFF;
+    background-color: #000000;
     color: #ffffff;
 }
 

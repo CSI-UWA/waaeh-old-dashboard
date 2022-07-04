@@ -137,25 +137,25 @@ h1 {
 	font-size: 22pt;
 }
 h2 {
-	font-family: 'Droid Serif', Apud-BoldItalic, sans-serif;
-	line-height: 1.5em;
-	color: #25408F;
-	text-decoration: none;
-	font-size: 18pt;
-}
-h3 {
-	font-family: 'Droid Serif',Apud-Medium, sans-serif;
+	font-family: 'Droid Serif', Apud-Black, sans-serif;
 	line-height: 1.5em;
 	color: #25408F;
 	text-decoration: none;
 	font-size: 16pt;
+}
+h3 {
+	font-family: 'Droid Serif',Apud-BoldItalic, sans-serif;
+	line-height: 1.5em;
+	color: #25408F;
+	text-decoration: none;
+	font-size: 14pt;
 }
 h4 {
 	font-family: 'Droid Serif', Apud-Medium, sans-serif;
 	line-height: 1.5em;
 	color: #25408F;
 	text-decoration: none;
-	font-size: 14pt;
+	font-size: 13pt;
 }
 h5 {
 	font-family: 'Droid Serif', Apud-Medium, sans-serif;

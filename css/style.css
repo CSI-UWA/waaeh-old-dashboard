@@ -125,7 +125,7 @@ General CSS
 }
 p {
 	font-family: Apud-Roman;
-	line-height: 1.7em;
+	line-height: 2em;
 	color: #000000;
 	font-size: 11pt;
 }
@@ -187,6 +187,7 @@ Menu CSS
 	padding-left: 20px;
 	padding-left: 20px;
 	padding-right: 30px;
+	border-right: solid;
 	font-family: 'Droid Serif', Apud-Medium, sans-serif;
 	overflow-y: scroll;
 	top: 0;

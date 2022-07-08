@@ -190,7 +190,8 @@ Menu CSS
 	padding-right: 30px;
 	border-right: solid;
 	border-color: #D7D7D7;
-	background-color: #F3F3F3;
+	border-width: thin;
+	background-color: #f0f0f0;
 	font-family: 'Droid Serif', Apud-Medium, sans-serif;
 	overflow-y: scroll;
 	top: 0;

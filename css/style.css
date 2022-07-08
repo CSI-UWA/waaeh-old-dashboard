@@ -277,6 +277,7 @@ Blockquote
   line-height:1.6;
   position: relative;
   background:#EDEDED;
+  z-index: 1;
 }
 
 .blockquote::before{
@@ -298,7 +299,7 @@ Blockquote
 }
 
 /******************************************************************
-Tables
+Tables and graphs
 ******************************************************************/
 .styled-table {
     border-collapse: collapse;
@@ -332,5 +333,10 @@ Tables
 .styled-table tbody tr:last-of-type {
     border-bottom: 2px solid #b5b5b5;
 }
+
+
+.tableauPlaceholder {	z-index: 1;
+}
+	
 
 

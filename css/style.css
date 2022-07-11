@@ -213,12 +213,16 @@ Menu CSS
 #main-menu .selected {
 	color: #121212;
 }
-#footer h6 {
-	font-size: 10px;
+
+#footer-logo {
+	width: 96px;
+	height: 22px;
 	position: fixed;
-	bottom: 10px;
-	left: 20px;
+	bottom: 40px;
+	left: 30px;
 }
+
+
 
 /******************************************************************
 Some Nivo Customization CSS

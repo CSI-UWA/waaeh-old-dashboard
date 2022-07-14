@@ -298,6 +298,14 @@ Blockquote
 /******************************************************************
 Tables and graphs
 ******************************************************************/
+
+table {
+	width:80%;
+	border-top:1px;
+	border-bottom:1px;
+	border-color: #bcbcbc;
+}
+
 .styled-table {
     border-collapse: collapse;
     margin: 30px 30px;
@@ -334,6 +342,8 @@ Tables and graphs
 
 .tableauPlaceholder {	z-index: 1;
 }
+
+
 	
 
 

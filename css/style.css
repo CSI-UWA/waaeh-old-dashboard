@@ -127,7 +127,7 @@ General CSS
 p {
 	font-family: Apud-Roman;
 	line-height: 2em;
-	color: #000000;
+	color: #1c1a1a;
 	font-size: 11pt;
 }
 h1 {
@@ -270,7 +270,7 @@ Blockquote
   font-style:italic;
   color: #555555;
   padding:20px 30px 20px 30px;
-  border-left:5px solid #005BAA ;
+  border-left:5px solid #b22525 ;
   line-height:1.6;
   position: relative;
   background:#EDEDED;

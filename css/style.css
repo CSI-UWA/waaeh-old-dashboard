@@ -329,7 +329,7 @@ table tbody tr:last-of-type {
     border-bottom: 1px solid #bcbcbc;
 }
 
-table tbody tr:hover td:not(:first-child){
+table tbody.row-wrapper tr:hover {
     background: #f3f3f3;
 }
 
@@ -366,7 +366,7 @@ table tbody tr:hover td:not(:first-child){
     border-bottom: 2px solid #b5b5b5;
 }
 
-.styled-table tbody tr:hover td:not(:first-child){
+.styled-table tbody.row-wrapper tr:hover{
     background: #f3f3f3;
 }
 

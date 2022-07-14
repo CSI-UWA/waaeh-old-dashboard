@@ -130,6 +130,13 @@ p {
 	color: #1c1a1a;
 	font-size: 11pt;
 }
+
+p2 {
+	font-family: Apud-Roman;
+	line-height: 2em;
+	color: #1c1a1a;
+	font-size: 6pt;
+}
 h1 {
 	font-family: 'Droid Serif', Apud-Black, sans-serif;
 	line-height: 1.5em;
@@ -319,12 +326,6 @@ table tbody tr:last-of-type {
     border-bottom: 1px solid #bcbcbc;
 }
 
-table tfoot td {
-	font-size:6px;
-}
-
-
-
 .styled-table {
     border-collapse: collapse;
     margin: 30px 30px;
@@ -356,11 +357,6 @@ table tfoot td {
 
 .styled-table tbody tr:last-of-type {
     border-bottom: 2px solid #b5b5b5;
-}
-
-
-.styled-table tfoot td {
-	font-size:6px;
 }
 
 

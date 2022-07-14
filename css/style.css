@@ -319,8 +319,8 @@ table tbody tr:last-of-type {
     border-bottom: 1px solid #bcbcbc;
 }
 
-table tfoot {
-	font-size:"6px";
+table tfoot tr {
+	font-size:6px;
 }
 
 
@@ -357,6 +357,12 @@ table tfoot {
 .styled-table tbody tr:last-of-type {
     border-bottom: 2px solid #b5b5b5;
 }
+
+
+.styled-table tfoot tr {
+	font-size:6px;
+}
+
 
 
 .tableauPlaceholder {	z-index: 1;

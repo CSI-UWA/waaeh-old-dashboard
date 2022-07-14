@@ -329,6 +329,10 @@ table tbody tr:last-of-type {
     border-bottom: 1px solid #bcbcbc;
 }
 
+table tbody tr:hover td:not(:first-child){
+    background: #f3f3f3;
+}
+
 .styled-table {
     border-collapse: collapse;
     margin: 30px 30px;
@@ -362,7 +366,9 @@ table tbody tr:last-of-type {
     border-bottom: 2px solid #b5b5b5;
 }
 
-
+.styled-table tbody tr:hover td:not(:first-child){
+    background: #f3f3f3;
+}
 
 .tableauPlaceholder {	z-index: 1;
 }

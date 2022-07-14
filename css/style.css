@@ -301,9 +301,16 @@ Tables and graphs
 
 table {
 	width:80%;
+}
+
+table thead {
 	border-top:1px;
 	border-bottom:1px;
 	border-color: #bcbcbc;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 1px solid #bcbcbc;
 }
 
 .styled-table {

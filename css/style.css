@@ -303,8 +303,8 @@ table {
 	width:80%;
 }
 
-table th, table td {
-	 padding: 12px 15px
+table td {
+	 padding: 12px;
 }
 
 

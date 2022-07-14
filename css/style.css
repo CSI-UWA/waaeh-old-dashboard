@@ -319,7 +319,7 @@ table tbody tr:last-of-type {
     border-bottom: 1px solid #bcbcbc;
 }
 
-table tfoot tr {
+table tfoot td {
 	font-size:6px;
 }
 
@@ -359,7 +359,7 @@ table tfoot tr {
 }
 
 
-.styled-table tfoot tr {
+.styled-table tfoot td {
 	font-size:6px;
 }
 

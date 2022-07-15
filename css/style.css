@@ -316,7 +316,7 @@ Tables and graphs
 ******************************************************************/
 .collapsible {
   background-color: #777;
-  color: white;
+  color: #FFFFFF;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -325,7 +325,9 @@ Tables and graphs
   outline: none;
   font-size: 15px;
   font-family: 'Droid Serif', Apud-Medium, sans-serif;
-
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin: 20px;
+  display: block;
   
 	
 }
@@ -337,7 +339,7 @@ Tables and graphs
 .collapsible:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
-  color: white;
+  color: #FFFFFF;
   float: right;
   margin-left: 5px;
 }

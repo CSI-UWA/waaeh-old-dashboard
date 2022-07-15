@@ -330,7 +330,7 @@ table tbody tr:last-of-type {
 }
 
 table tbody tr:hover td:not(
-[rowspan]) {background: red
+[rowspan]) {background: #f3f3f3
 }
 
 table tbody tr:hover td[rowspan]:hover ~ td {
@@ -378,7 +378,7 @@ table tbody tr:hover td[rowspan]:hover ~ td {
 .tableauPlaceholder {	z-index: 1;
 }
 
-header-table {
+.header-table {
 	width:100%;
 	border:solid 1px;
 }

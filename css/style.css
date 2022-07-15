@@ -380,7 +380,7 @@ table tbody tr:hover td[rowspan]:hover ~ td {
 
 header-table {
 	width:100%;
-	border-style:none;
+	border:solid 1px;
 }
 	
 

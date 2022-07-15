@@ -326,6 +326,7 @@ Tables and graphs
 .normal-table {
 	width:90%;
 	margin: 20px 20px;
+        border-collapse: collapse;
 }
 
 .normal-table th {

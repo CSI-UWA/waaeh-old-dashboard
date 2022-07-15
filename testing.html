@@ -25,6 +25,37 @@
   overflow: hidden;
   background-color: #f1f1f1;
 }
+  
+.normal-table {
+	width:90%;
+	margin: 30px 30px;
+	display:none;
+}
+
+.normal-table td {
+	 padding: 5px;
+}
+
+
+.normal-table thead {
+	border-top:1px solid;
+	border-bottom:1px solid;
+	border-color: #bcbcbc;
+	font-weight:bold;
+}
+
+.normal-table tbody tr:last-of-type {
+    border-bottom: 1px solid #bcbcbc;
+}
+
+.normal-table tbody tr:hover td:not(
+[rowspan]) {background: #f3f3f3
+}
+
+.normal-table tbody tr:hover td[rowspan]:hover ~ td {
+	background: none;
+}
+
 
 </style>
 </head>

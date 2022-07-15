@@ -329,9 +329,14 @@ table tbody tr:last-of-type {
     border-bottom: 1px solid #bcbcbc;
 }
 
-table tbody.row-wrapper tr:hover {
-    background: #f3f3f3;
+table tbody tr:hover td:not(
+[rowspan]) {background: red
 }
+
+table tbody tr:hover td[rowspan]:hover ~ td {
+	background: none;
+}
+
 
 .styled-table {
     border-collapse: collapse;

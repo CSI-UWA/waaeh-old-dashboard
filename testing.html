@@ -2,115 +2,122 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 70%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.active, .collapsible:hover {
-  background-color: #555;
-}
-
-.content {
-  display: none;
-  overflow: hidden;
-	}
-  
-.normal-table {
-	width:90%;
-}
-
-.normal-table td {
-	 padding: 5px;
-}
-
-
-.normal-table thead {
-	border-top:1px solid;
-	border-bottom:1px solid;
-	border-color: #bcbcbc;
-	font-weight:bold;
-}
-
-.normal-table tbody tr:last-of-type {
-    border-bottom: 1px solid #bcbcbc;
-}
-
-.normal-table tbody tr:hover td:not(
-[rowspan]) {background: #f3f3f3
-}
-
-.normal-table tbody tr:hover td[rowspan]:hover ~ td {
-	background: none;
-}
-
-
-</style>
-</head>
-<body>
-
-<h2>Collapsibles</h2>
-
-<p>A Collapsible:</p>
-<button type="button" class="collapsible">Housing affordability</button>
-<div class="content">
- <table class="normal-table">
-   <thead>
-     <tr>
-      <td><p>Indicators</p></td>
-      <td><p>Most current values</p></td>
-      <td><p>Trend over time</p></td>
-     </tr>
-    </thead>
-    <tbody>
-     <tr>
-       <td><p>Proportion experiencing household stress in Perth (2017 - 2020)<sup>1</sup></p></td>
-       <td><p>10.7%</p></td>
-       <td><p>Increasing</p></td>
-      </tr>
-     </tbody>
-    </table>
-</div>
-
-<p>Collapsible Set:</p>
-<button type="button" class="collapsible">Open Section 1</button>
-<div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-<button type="button" class="collapsible">Open Section 2</button>
-<div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-<button type="button" class="collapsible">Open Section 3</button>
-<div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
-
-
-</body>
-</html>
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+            <center>
+              <table class="normal-table">
+               <caption style="text-align:left"><p>Table. Drivers of homelessness in Western Australia</p></caption>
+                <thead>
+                  <tr>
+                    <td><p>Drivers</p></td>
+                    <td><p>Indicators</p></td>
+                    <td><p>Most current values</p></td>
+                    <td><p>Trend over time</p></td>
+                  </tr>
+                 </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="13"><p>Housing affordability</p></td>
+                    <td><p>Proportion experiencing household stress in Perth (2017 - 2020)<sup>1</sup></p></td>
+                    <td><p>10.7%</p></td>
+                    <td><p>Increasing</p></td>
+                  </tr>
+                  <tr>
+                    <td><p>Proportion of low-income rental households spending more than 30 per cent of their gross income on housing costs (2019-2020)<sup>2</sup></p></td>
+                    <td><p>Perth -36.7%<br>
+                      Rest of state – 26.2%</p></td>
+                    <td><p>Decreasing</p></td>
+                  </tr>
+                  <tr>
+                    <td><p>Proportion of low income households remaining in housing stress from one year to the next  (2017-2020)<sup>1</sup></p></td>
+                    <td><p>Australia – 48.3%</p></td>
+                    <td><p>Increasing</p></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="4"><p>Housing affordability (2019-2020)<sup>2</sup></p></td>
+                    <td><p>Owner – 2.9%</p></td>
+                    <td><p>Stable</p></td>
+                  </tr>
+                  <tr>
+                    <td><p>Owner with a mortgage – 14.0%</p></td>
+                    <td><p>Decreasing</p></td>
+                  </tr>
+                  <tr>
+                    <td><p>Renter – private landlord – 17.4%</p></td>
+                    <td><p>Stable</p></td>
+                  </tr>
+                  <tr>
+                    <td><p>Renter – state of territory housing – 20.9%</p></td>
+                    <td><p>Decreasing</p></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="4"><p>Home ownership (2019-2020)<sup>2</sup></p></td>
+                    <td><p>Owner without a mortgage – 26.6%</p></td>
+                    <td><p>Decreasing</p></td>
+                  </tr>
+                  <tr>
+                    <td><p>Owner with a mortgage – 42.7%</p></td>
+                    <td><p>Stable</p></td>
+                  </tr>
+                  <tr>
+                    <td><p>Renter – private landlord – 22.5%</p></td>
+                    <td><p>Decreasing</p></td>
+                  </tr>
+                  <tr>
+                    <td><p>Renter – state of territory housing – 2.8%</p></td>
+                    <td><p>Increasing</p></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2"><p>Rental affordability index (Q2, 2020)<sup>3</sup></p></td>
+                    <td><p>Perth – Extremely unaffordable</p></td>
+                    <td><p>Decreasing</p></td>
+                  </tr>
+                  <tr>
+                    <td><p>Rest of Western Australia – Extremely unaffordable</p></td>
+                    <td><p>Decreasing</p></td>
+                  </tr>
+                 <tr>
+                   <td rowspan="6"><p>Housing supply</p></td>
+                   <td rowspan="3"><p>Number of social housing dwellings (2021)<sup>4</sup></p></td>
+                   <td><p>Indigenous community housing – 2,699</p></td>
+                   <td><p>Decreasing</p></td>
+                  </tr>
+                  <tr>
+                    <td><p>Community housing – 7,997</p></td>
+                    <td><p>Stable</p></td>
+                  </tr>
+                  <tr>
+                    <td><p>Public housing - 31,919</p></td>
+                    <td><p>Decreasing</p></td>
+                  </tr>
+                  <tr>
+                    <td><p>Number of applicants on waiting list (2021)<sup>4</sup></td>
+                    <td><p>14,619</p>
+                    </td>
+                   <td>
+                     <p>Stable</p><br>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2"><p>Waiting time to secure public housing accommodation (2020)<sup>5</sup></td>
+                    <td><p>Average – 94 weeks</p></td>
+                    <td><p>Stable</p></td>
+                  </tr>
+                  <tr>
+                    <td><p>Median – 48 weeks</p></td>
+                    <td><p>Stable</p></td>
+                  </tr>`
+                </tbody>
+                <tfoot>
+                 <tr>
+                  <td colspan="4">
+                    <p2>
+                      <sup>1</sup>The Household, Income and Labour Dynamics in Australia (HILDA) Survey: General Release 20, 2022<br>
+                      <sup>2</sup>ABS 4130.0 – Housing Occupancy and Costs, 2019-20<br>
+                      <sup>3</sup>Rental Affordability Index, SGS Economics & Planning.<br>
+                      <sup>4</sup>AIHW Housing assistance in Australia 2021<br>
+                      <sup>5</sup>Government of Western Australia Department of Communities, Housing Authority Annual Report 2019-20</p2>
+                  </td>
+                 </tr>
+                </tfoot>
+              </table>
+              </center>   

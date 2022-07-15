@@ -124,6 +124,13 @@ General CSS
 	margin-left: 260px;
 	z-index: 1;
 }
+
+
+.tab-content {
+  display: none;
+  overflow: hidden;
+}
+
 p {
 	font-family: Apud-Roman;
 	line-height: 2em;

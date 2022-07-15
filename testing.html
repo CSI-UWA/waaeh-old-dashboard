@@ -14,9 +14,15 @@
                     <td><p>Trend over time</p></td>
                   </tr>
                  </thead>
-                <tbody>
+                <tbody class="labels">
                   <tr>
-                    <td rowspan="13"><p>Housing affordability</p></td>
+                    <td colspan="4">
+			    <label for="housing-affordability"><p>Housing affordability</p></label>
+					<input type="checkbox" name="housing-affordability" id="housing-affordability" data-toggle="toggle">
+			    </td>
+			</tr>
+		      </tbody>
+		      <tbody class="hide">
                     <td><p>Proportion experiencing household stress in Perth (2017 - 2020)<sup>1</sup></p></td>
                     <td><p>10.7%</p></td>
                     <td><p>Increasing</p></td>
@@ -75,6 +81,8 @@
                     <td><p>Rest of Western Australia – Extremely unaffordable</p></td>
                     <td><p>Decreasing</p></td>
                   </tr>
+		    </tbody>
+	<tbody>
                  <tr>
                    <td rowspan="6"><p>Housing supply</p></td>
                    <td rowspan="3"><p>Number of social housing dwellings (2021)<sup>4</sup></p></td>

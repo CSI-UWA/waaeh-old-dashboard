@@ -3,6 +3,8 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
             <center>
               <table class="normal-table">
                <caption style="text-align:left"><p>Table. Drivers of homelessness in Western Australia</p></caption>
@@ -129,3 +131,10 @@
                 </tfoot>
               </table>
               </center>   
+<style>
+	$(document).ready(function() {
+	$('[data-toggle="toggle"]').change(function(){
+		$(this).parents().next('.hide').toggle();
+	});
+});
+</style></body></html>

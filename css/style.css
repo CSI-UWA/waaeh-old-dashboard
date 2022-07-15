@@ -340,10 +340,10 @@ Tables and graphs
         border-collapse: collapse;
 }
 
-.normal-table th td {
-	 padding: 10px;
+.normal-table th,
+.normal-table td {
+    padding: 12px 15px;
 }
-
 
 .normal-table thead {
 	border-top:1px solid;

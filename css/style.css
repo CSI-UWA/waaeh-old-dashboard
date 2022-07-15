@@ -373,6 +373,9 @@ table tbody.row-wrapper tr:hover {
 .tableauPlaceholder {	z-index: 1;
 }
 
+header-table {
+	width:100%;
+}
 
 	
 

@@ -375,8 +375,8 @@ table tbody.row-wrapper tr:hover {
 
 header-table {
 	width:100%;
+	table-layout: fixed;
 }
-
 	
 
 

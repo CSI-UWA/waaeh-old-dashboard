@@ -336,7 +336,7 @@ Tables and graphs
         border-collapse: collapse;
 }
 
-.normal-table th {
+.normal-table th td {
 	 padding: 5px;
 }
 

@@ -402,7 +402,6 @@ table tbody tr:hover td[rowspan]:hover ~ td {
 
 .header-table {
 	width:100%;
-	border:solid 1px;
 }
 	
 

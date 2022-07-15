@@ -321,12 +321,12 @@ Tables and graphs
 .normal-table thead {
 	border-top:1px solid;
 	border-bottom:1px solid;
-	border-color: #bcbcbc;
+	border-color: #000000;
 	font-weight:bold;
 }
 
 .normal-table tbody tr:last-of-type {
-    border-bottom: 1px solid #bcbcbc;
+    border-bottom: 1px solid #000000;
 }
 
 .normal-table tbody tr:hover td:not(

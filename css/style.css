@@ -129,11 +129,10 @@ General CSS
 .collapse-content {
   display: none;
   overflow: hidden;
+  width: 850px;
+
 }
 
-.collapse-content2 {
-  overflow: hidden;
-}
 
 p {
 	font-family: Apud-Roman;

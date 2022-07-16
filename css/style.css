@@ -462,6 +462,10 @@ Tabs
   background-color: #ccc;
 }
 
+.tab button:after {
+   content: none;
+}
+
 /* Style the tab content */
 .tabcontent {
   display: none;

@@ -425,6 +425,7 @@ Tables and graphs
 .tableauPlaceholder {	z-index: 1;
         content: none;
 	margin:20px;
+	width:800px;
 }
 
 .header-table {

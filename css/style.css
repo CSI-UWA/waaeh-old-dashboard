@@ -152,7 +152,7 @@ p3 {
 	font-family: Apud-Roman;
 	line-height: 1em;
 	color: #b22525;
-	font-size: 11pt;
+	font-size: 12pt;
 }
 
 h1 {
@@ -232,13 +232,13 @@ Menu CSS
 	font-size: 14pt;
 }
 #main-menu a:hover {
-	color: #121212;
+	color: #b22525;
 }
 #main-menu li {
 	padding: 2px 0 2px 0;
 }
 #main-menu .selected {
-	color: #121212;
+	color: #b22525;
 }
 
 
@@ -346,7 +346,8 @@ Tables and graphs
 }
 
 .active, .collapsible:hover {
-  background-color: #aaaaaa;
+  color: #FFFFFF;
+  background-color: #b22525;
 }
 
 .collapsible:after {
@@ -385,7 +386,7 @@ Tables and graphs
 }
 
 .normal-table tbody tr:hover td:not(
-[rowspan]) {background: #f3f3f3
+[rowspan]) {background: #db9797
 }
 
 .normal-table tbody tr:hover td[rowspan]:hover ~ td {

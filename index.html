@@ -321,8 +321,15 @@ Additionally, SHSC records include data on the number of nights clients spend in
                          
            
               <button type="button" class="collapsible">Housing affordability</button>
-<div class="tab-content">
+<div class="collapse-content">
 
+<div class="tab">
+  <button class="tablinks" onclick="openData(event, 'Table')">Table</button>
+  <button class="tablinks" onclick="openData(event, 'Charts')">Charts</button>
+</div>
+  
+<div id="Table" class="tabcontent">
+  
 <table class="normal-table">
 <thead>
 <tr>
@@ -421,7 +428,11 @@ Rest of state – 26.2%</p></td>
 </tfoot>
 </table>
 </div>
-
+  
+  <div id="Charts" class="tabcontent">
+    Testing
+  </div>
+              </div>
 
               <button type="button" class="collapsible">Housing supply</button>
 <div class="tab-content">
@@ -820,7 +831,22 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+  
+function openData(evt, datatype) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(datatype).style.display = "block";
+  evt.currentTarget.className += " active";
+}
 
-              </script>
+
+    </script>
   </body>
 </html>

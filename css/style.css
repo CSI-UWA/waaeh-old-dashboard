@@ -145,7 +145,14 @@ p2 {
 	line-height: 2em;
 	color: #1c1a1a;
 	font-size: 8pt;
+
+p3 {
+	font-family: Apud-Roman;
+	line-height: 1em;
+	color: #b22525;
+	font-size: 11pt;
 }
+
 h1 {
 	font-family: 'Droid Serif', Apud-Black, sans-serif;
 	line-height: 1.5em;

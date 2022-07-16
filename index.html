@@ -285,7 +285,7 @@ Additionally, SHSC records include data on the number of nights clients spend in
 <div class="collapse-content">
 
 <div class="tab">
-  <button class="tablinks" onclick="openData(event, 'housingaff-table')" id="defaultOpen">Table</button>
+  <button class="tablinks" onclick="openData(event, 'housingaff-table')">Table</button>
   <button class="tablinks" onclick="openData(event, 'housingaff-charts')">Charts</button>
 </div>
   
@@ -404,7 +404,7 @@ Rest of state – 26.2%</p></td>
 
 
 <div class="tab">
-  <button class="tablinks" onclick="openData(event, 'housingsupp-table')" id="defaultOpen">Table</button>
+  <button class="tablinks" onclick="openData(event, 'housingsupp-table')">Table</button>
   <button class="tablinks" onclick="openData(event, 'housingsupp-charts')">Charts</button>
 </div>
   
@@ -929,8 +929,6 @@ function openData(evt, datatype) {
   evt.currentTarget.className += " active";
 }
 
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
   
     </script>
   </body>

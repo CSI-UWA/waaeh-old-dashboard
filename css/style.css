@@ -127,7 +127,7 @@ General CSS
 
 
 .tab-content {
-  overflow: hidden;
+	overflow: hidden;
 	display:none;
 
 }
@@ -424,7 +424,7 @@ Tables and graphs
 
 .tableauPlaceholder {	z-index: 1;
         content: none;
-	margin:20px;
+	margin:10px;
 }
 
 .header-table {

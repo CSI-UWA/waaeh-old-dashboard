@@ -131,6 +131,10 @@ General CSS
   overflow: hidden;
 }
 
+.collapse-content2 {
+  overflow: hidden;
+}
+
 p {
 	font-family: Apud-Roman;
 	line-height: 2em;
@@ -329,6 +333,7 @@ Tables and graphs
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   margin: 20px;
   display: block;
+  width: 100%;
   
 	
 }

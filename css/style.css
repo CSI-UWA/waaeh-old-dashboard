@@ -346,26 +346,28 @@ Tables and graphs
 }
 
 .active, .collapsible:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #b22525;
 }
 
 .collapsible:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: #FFFFFF;
+  content: '\002B';
+  color: #555555;
+  font-size: 20px;
+  font-weight: bold;
   float: right;
   margin-left: 5px;
 }
 
 .active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  content: "\2212";
+  color: #FFFFFF;
 }
 
 .normal-table {
 	width:90%;
 	margin: 20px 20px;
-        border-collapse: collapse;
+    border-collapse: collapse;
 }
 
 .normal-table th,

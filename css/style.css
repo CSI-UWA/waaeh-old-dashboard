@@ -75,7 +75,7 @@ TEXT SELECTION STYLES
  color:#fff;
 }
 a {
-	color: #E095B4;
+	color: #b22525;
 	outline: none;
 }
 
@@ -121,7 +121,7 @@ General CSS
 	width: 900px;
 	padding-top: 20px;
 	padding-left: 15px;
-	margin-left: 260px;
+	margin-left: 300px;
 	z-index: 1;
 }
 
@@ -202,42 +202,60 @@ sup {font-size:xx-small; vertical-align:super;}
 /******************************************************************
 Menu CSS
 ******************************************************************/
+
+
+#main-menu .collapsible-menu-header {
+  display: block;
+  cursor: pointer;
+  min-height: 2rem;
+  line-height: 3rem;
+  padding: 0 1rem;
+  font-size: 20pt;
+
+}
+
+#main-menu .collapsible-menu-body {
+  display: none;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+  margin: 0;
+  padding: .5rem 2rem;
+  font-size: 13pt;
+}
+
+
 #menu-wrapper {
 	height: 100%;
 	padding-top: 50px;
 	float: left;
-	width: 200px;
+	width: 250px;
 }
+
 #main-menu {
 	position: fixed;
-	width: 200px;
+	width: 250px;
 	padding-top: 80px;
-	padding-left: 20px;
-	padding-left: 20px;
 	padding-right: 30px;
-	border-right: solid;
-	border-color: #D7D7D7;
-	border-width: thin;
 	background-color: #f0f0f0;
 	font-family: 'Droid Serif', Apud-Medium, sans-serif;
 	overflow-y: scroll;
 	top: 0;
   	bottom: 0;
+  	left:0;
 	word-wrap: break-word;
 	z-index: 2;
 }
-#main-menu a {
-	color: #707070;
-	text-decoration: none;
-	font-size: 14pt;
-}
-#main-menu a:hover {
-	color: #b22525;
-}
+
 #main-menu li {
 	padding: 2px 0 2px 0;
 }
-#main-menu .selected {
+
+#main-menu a {
+	color: #707070;
+	text-decoration: none;
+
+}
+#main-menu a:hover {
 	color: #b22525;
 }
 
@@ -325,7 +343,7 @@ Blockquote
 /******************************************************************
 Tables and graphs
 ******************************************************************/
-.collapsible {
+#content .collapsible {
   color: #555555;
   background-color: #EDEDED;
   border: none;
@@ -345,12 +363,17 @@ Tables and graphs
 	
 }
 
-.active, .collapsible:hover {
+#content .active, #content .collapsible:hover {
   color: #ffffff;
   background-color: #b22525;
 }
 
-.collapsible:after {
+#content .collapsible:hover:after {
+  color: #ffffff;
+}
+
+
+#content .collapsible:after {
   content: '\002B';
   color: #555555;
   font-size: 20px;
@@ -359,7 +382,7 @@ Tables and graphs
   margin-left: 5px;
 }
 
-.active:after {
+#content .active:after {
   content: "\2212";
   color: #FFFFFF;
 }

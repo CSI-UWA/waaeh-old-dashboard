@@ -17,149 +17,159 @@
     <link rel="stylesheet" href="css/nivo-theme.css" type="text/css" media="screen">
     <script src="scripts/jquery.nivo.slider.pack.js"></script>
     <script src="scripts/nivo-options.js"></script>
-    <!-- Load fancybox -->
-    <script src="scripts/jquery.fancybox-1.3.4.pack.js"></script>
-    <script src="scripts/jquery.easing-1.3.pack.js"></script>
-    <script src="scripts/jquery.mousewheel-3.0.4.pack.js"></script>
-    <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css" type="text/css" media="screen">
     <!-- Load collapsible sidebar -->
     <script src="scripts/jquery-2.1.1.min.js"></script>
     <script src="scripts/materialize.min.js"></script>
+
+    <style>
+    #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  background:none;
+}
+</style>
 </head>
 <body>
 <!--This is the START of the menu-->
     <div id="menu-wrapper">
         <div id="main-menu">
-            <ul>
-                <ol class="toc-list" role="list">
-                    <li>
+            <ul class="collapsible" data-collapsible="accordion">
+                <li>
+                    <div class="collapsible-menu-header">
                         <a href="#Background">
-                            <span class="title"><h5>Background</h5></span>
+                            <span class="title">Background</span>
                         </a>
-                    </li>
-                    <li>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-menu-header">
                         <a href="#Target-1">
-                            <span class="title"><h5>Target 1</h5></span>
+                            <span class="title">Target 1</span>
                         </a>
-                    </li>
-                    <li>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-menu-header">
                         <a href="#Target-2">
-                            <span class="title"><h5>Target 2</h5></span>
+                            <span class="title">Target 2</span>
                         </a>
-                    </li>
-                    <li>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-menu-header">
                         <a href="#Target-3">
-                            <span class="title"><h5>Target 3</h5></span>
+                            <span class="title">Target 3</span>
                         </a>
-                        <ol role="list">
-                            <li>
-                                <a href="#Target-3-Reducing-the-overall-rate-of-homelessness">
-                                    <span class="title"><h6>Reducing the overall rate of homelessness</h6></span>
-                                </a>
-                            </li>
-                        </ol>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="collapsible-menu-body">
+                        <a href="#Target-3-Reducing-the-overall-rate-of-homelessness">
+                            <span class="title">Reducing the overall rate of homelessness</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                     <div class="collapsible-menu-header">
                         <a href="#Target-4">
-                            <span class="title"><h5>Target 4</h5></span>
+                            <span class="title">Target 4</span>
                         </a>
-                        <ol role="list">
-                            <li>
-                                <a href="#Target-4-Housing-affordability">
-                                    <span class="title"><h6>Housing affordability</h6></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#Target-4-Housing-supply">
-                                    <span class="title"><h6>Housing supply</h6></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#Target-4-Poverty-and-unemployment">
-                                    <span class="title"><h6>Poverty and unemployment</h6></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#Target-4-Young-people-in-custody">
-                                    <span class="title"><h6>Young people in custody and out of home care</h6></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#Target-4-Physical-and-mental-health">
-                                    <span class="title"><h6>Physical and mental health</h6></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#Target-4-Alcohol-and-drug-use">
-                                    <span class="title"><h6>Alcohol and drug use</h6></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#Target-4-Domestic-violence">
-                                    <span class="title"><h6>Domestic violence</h6></span>
-                                </a>
-                            </li>
-                        </ol>
-                    </li>
-                    <li>
+                     </div>
+                    <div class="collapsible-menu-body">
+                        <a href="#Target-4-Housing-affordability">
+                            <span class="title">Housing affordability</span>
+                        </a>
+                        <br><br>
+                        <a href="#Target-4-Housing-supply">
+                            <span class="title">Housing supply</span>
+                        </a>
+                        <br><br>
+                        <a href="#Target-4-Poverty-and-unemployment">
+                            <span class="title">Poverty and unemployment</span>
+                        </a>
+                        <br><br>
+                        <a href="#Target-4-Young-people-in-custody">
+                            <span class="title">Young people in custody and out of home care</span>
+                        </a>
+                        <br><br>
+                        <a href="#Target-4-Physical-and-mental-health">
+                            <span class="title">Physical and mental health</span>
+                        </a>
+                        <a href="#Target-4-Alcohol-and-drug-use">
+                            <span class="title">Alcohol and drug use</span>
+                        </a>
+                        <br><br>
+                        <a href="#Target-4-Domestic-violence">
+                            <span class="title">Domestic violence</span>
+                        </a>
+                     </div>
+                </li>
+                <li>
+                    <div class="collapsible-menu-header">
                         <a href="#Target-5">
-                            <span class="title"><h5>Target 5</h5></span>
+                            <span class="title">Target 5</span>
                         </a>
-                        <ol role="list">
-                            <li>
-                                <a href="#Target-5-Reducing-Aboriginal-homelessness">
-                                    <span class="title"><h6>Reducing Aboriginal homelessness</h6></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#Target-5-Reducing-regional-homelessness">
-                                    <span class="title"><h6>Reducing regional homelessness</h6></span>
-                                </a>
-                            </li>
-                        </ol>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="collapsible-menu-body">
+                        <a href="#Target-5-Reducing-Aboriginal-homelessness">
+                            <span class="title">Reducing Aboriginal homelessness</span>
+                        </a>
+                        <br><br>
+                        <a href="#Target-5-Reducing-regional-homelessness">
+                            <span class="title">Reducing regional homelessness</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-menu-header">
                         <a href="#Target-6">
-                            <span class="title"><h5>Target 6</h5></span>
+                            <span class="title">Target 6</span>
                         </a>
-                        <ol role="list">
-                            <li>
-                                <a href="#Target-6-Addressing-the-needs">
-                                    <span class="title"><h6>Addressing the needs of those experiencing homelessness</h6></span>
-                                </a>
-                            </li>
-                        </ol>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="collapsible-menu-body">
+                        <a href="#Target-6-Addressing-the-needs">
+                            <span class="title">Addressing the needs of those experiencing homelessness</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-menu-header">
                         <a href="#Target-7">
-                            <span class="title"><h5>Target 7</h5></span>
+                            <span class="title">Target 7</span>
                         </a>
-                    </li>
-                    <li>
+                </li>
+                <li>
+                    <div class="collapsible-menu-header">
                         <a href="#Target-8">
-                            <span class="title"><h5>Target 8</h5></span>
+                            <span class="title">Target 8</span>
                         </a>
-                        <ol role="list">
-                            <li>
-                                <a href="#Target-8-Point1">
-                                    <span class="title"><h6><Point1 here></h6></span>
-                                </a>
-                            </li>
-                        </ol>
-                    </li>
-                    <li>
-                        <a href="#Target-9">
-                            <span class="title"><h5>Target 9</h5></span>
+                    </div>
+                    <div class="collapsible-menu-body">
+                        <a href="#Target-8-Point1">
+                            <span class="title"><Point1 here></span>
                         </a>
-                        <ol role="list">
-                            <li>
-                                <a href="#Target-9-Point1">
-                                    <span class="title"><h6><point 1 here></h6></span>
-                                </a>
-                            </li>
-                        </ol>
-                    </li>
-                </ol>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-menu-header">
+                        <a href="#Target-0">
+                            <span class="title">Target 9</span>
+                        </a>
+                    </div>
+                    <div class="collapsible-menu-body">
+                        <a href="#Target-9-Point1">
+                            <span class="title"><h6><Point1 here></h6></span>
+                        </a>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
@@ -267,7 +277,7 @@
                 <tfoot>
                 <tr>
                     <td colspan="5">
-                        <p2><b>Source</b>: Specialist Homelessness Services Collection (AIHW, 2022). Specialist Homelessness Services Annual Report (cat no. HOU 322). https://www.aihw.gov.au/reports/homelessness-services/specialist-homelessness-services-annual-report/contents/summary.</p2>
+                        <p2><b>Source</b>: Specialist Homelessness Services Collection (AIHW, 2022). Specialist Homelessness Services Annual Report (cat no. HOU 322). <a href="https://www.aihw.gov.au/reports/homelessness-services/specialist-homelessness-services-annual-report/contents/summary" target="_blank">https://www.aihw.gov.au/reports/homelessness-services/specialist-homelessness-services-annual-report/contents/summary.</a></p2>
                     </td>
                 </tr>
                 </tfoot>
@@ -802,6 +812,9 @@
     </div>
 
     <div class='footer'>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/up.png"></button>
+
         <img src="csi-uwa logo.png" width="310" height="90" align="right">
 
     </div>
@@ -809,6 +822,9 @@
 
 <!--END of content-->
 <script>
+
+//collapsible js
+
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -825,6 +841,27 @@ for (i = 0; i < coll.length; i++) {
       }
 
 $( ".collapsible div" ).mouseover(function() { $(this).trigger('click'); });
+
+//scroll to top button
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
 </script>
   </body>

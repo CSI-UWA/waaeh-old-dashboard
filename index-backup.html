@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Western Australian Alliance to End Homelessness Outcomes Measurement Framework</title>
+    <meta charset="utf-8">
+    <!-- Load CSS -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!-- Load jQuery library -->
+    <script src="scripts/jquery-1.6.2.min.js"></script>
+    <!-- Load custom js -->
+    <script src="scripts/panelslide.js"></script>
+    <script src="scripts/custom.js"></script>
+    <!-- Load topcontrol js -->
+    <script src="scripts/scrolltopcontrol.js"></script>
+    <!-- Load NIVO Slider -->
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/nivo-theme.css" type="text/css" media="screen">
+    <script src="scripts/jquery.nivo.slider.pack.js"></script>
+    <script src="scripts/nivo-options.js"></script>
+    <!-- Load collapsible sidebar -->
+    <script src="scripts/jquery-2.1.1.min.js"></script>
+    <script src="scripts/materialize.min.js"></script>
+
+    <style>
+    #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  background:none;
+}
+</style>
+</head>
+<body>
+<!--This is the START of the menu-->
+    <div id="menu-wrapper">
+        <div id="main-menu">
+            <ul class="collapsible" data-collapsible="accordion">
+                <li>
+                    <div class="collapsible-menu-header">
+                        <a href="#Background">
+                            <span class="title">Background</span>
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="collapsible-menu-header">
+                        <a href="#Target-1">
+                            <span class="title">Target 1</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-menu-header">
+                        <a href="#Target-2">
+                            <span class="title">Target 2</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-menu-header">
+                        <a href="#Target-3">
+                            <span class="title">Target 3</span>
+                        </a>
+                    </div>
+                    <div class="collapsible-menu-body">
+                        <a href="#Target-3-Reducing-the-overall-rate-of-homelessness">
+                            <span class="title">Reducing the overall rate of homelessness</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                     <div class="collapsible-menu-header">
+                        <a href="#Target-4">
+                            <span class="title">Target 4</span>
+                        </a>
+                     </div>
+                    <div class="collapsible-menu-body">
+                        <a href="#Target-4-Housing-affordability">
+                            <span class="title">Housing affordability</span>
+                        </a>
+                        <br><br>
+                        <a href="#Target-4-Housing-supply">
+                            <span class="title">Housing supply</span>
+                        </a>
+                        <br><br>
+                        <a href="#Target-4-Poverty-and-unemployment">
+                            <span class="title">Poverty and unemployment</span>
+                        </a>
+                        <br><br>
+                        <a href="#Target-4-Young-people-in-custody">
+                            <span class="title">Young people in custody and out of home care</span>
+                        </a>
+                        <br><br>
+                        <a href="#Target-4-Physical-and-mental-health">
+                            <span class="title">Physical and mental health</span>
+                        </a>
+                        <br><br>
+                        <a href="#Target-4-Alcohol-and-drug-use">
+                            <span class="title">Alcohol and drug use</span>
+                        </a>
+                        <br><br>
+                        <a href="#Target-4-Domestic-violence">
+                            <span class="title">Domestic violence</span>
+                        </a>
+                     </div>
+                </li>
+                <li>
+                    <div class="collapsible-menu-header">
+                        <a href="#Target-5">
+                            <span class="title">Target 5</span>
+                        </a>
+                    </div>
+                    <div class="collapsible-menu-body">
+                        <a href="#Target-5-Reducing-Aboriginal-homelessness">
+                            <span class="title">Reducing Aboriginal homelessness</span>
+                        </a>
+                        <br><br>
+                        <a href="#Target-5-Reducing-regional-homelessness">
+                            <span class="title">Reducing regional homelessness</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-menu-header">
+                        <a href="#Target-6">
+                            <span class="title">Target 6</span>
+                        </a>
+                    </div>
+                    <div class="collapsible-menu-body">
+                        <a href="#Target-6-Addressing-the-needs">
+                            <span class="title">Addressing the needs of those experiencing homelessness</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-menu-header">
+                        <a href="#Target-7">
+                            <span class="title">Target 7</span>
+                        </a>
+                </li>
+                <li>
+                    <div class="collapsible-menu-header">
+                        <a href="#Target-8">
+                            <span class="title">Target 8</span>
+                        </a>
+                    </div>
+                    <div class="collapsible-menu-body">
+                        <a href="#Target-8-Point1">
+                            <span class="title"><Point1 here></span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-menu-header">
+                        <a href="#Target-0">
+                            <span class="title">Target 9</span>
+                        </a>
+                    </div>
+                    <div class="collapsible-menu-body">
+                        <a href="#Target-9-Point1">
+                            <span class="title"><h6><Point1 here></h6></span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+<!--END of menu-->
+<!--This is the START of the content-->
+<div id="content">
+    <table class="header-table" style="border:1">
+        <tr>
+            <td style="width:70%; vertical-align:top;">
+                <h1>Western Australian Alliance to End Homelessness Outcomes Measurement Framework</h1>
+                <br>
+                <h2><i>Dashboard 2022</i></h2>
+                <h4>Version 4.0 (Demo)</h4><br>
+            </td>
+            <td style="width:30%; vertical-align:top;">
+                <img src="waeeh logo with text.png" width="300" height="150">
+            </td>
+        </tr>
+    </table>
+    <div class="spacer"></div>
+    <div class="clr"></div>
+    <p>The Western Australian Alliance to End Homelessness presents the 2022 update to the Western Australian Alliance to End Homelessness Outcomes Measurement Framework: Dashboard <i>(the Dashboard)</i>, which was first released in August 2019, and updated in June 2022.  The Dashboard is an evolving, accessible, and visual platform designed to present and report on outcomes relevant to the key targets of the Western Australian Alliance to End Homelessness (WAAEH). The Dashboard aims to answer the following question: Are we are ‘on track’ to end homelessness in Western Australia?<br>
+    The Western Australian Alliance to End Homelessness is funded by the Sisters of St John of God Ministeries Inc.</p><br><br>
+    <div id="Background">
+        <h2>Background</h2>
+        <p>In July 2018, the WAAEH published the Strategy to End Homelessness (the Strategy). The Strategy articulates a 10-year plan to end homelessness in Western Australia, invoking a whole-of-society response. The Strategy comprises nine broad targets across the following areas: reducing and ending homelessness itself; preventing homelessness through addressing ‘structural’ and ‘individual’ drivers of homelessness; improving policy and practice within the service sector; and, improving measurement, accountability, and governance mechanisms. Those targets relating to reducing and preventing homelessness, which have been operationalised and for which data exists, form the backbone of the present version of the Dashboard. </p>
+        <center>
+            <table class="styled-table">
+                <thead>
+                <tr>
+                    <th align="center" colspan="2"><b>Ending Homelessness in Western Australia by 2028</b></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><i>Responding to Homelessness Targets</i></td>
+                    <td><i>Preventing Homelessness Targets</i></td>
+                </tr>
+                <tr>
+                    <td width="50%">
+                        <b>Target 1</b>: Western Australia will have ended all forms of chronic homelessness including chronic rough sleeping.<br>
+                        <b>Target 2</b>: No individual or family in Western Australia will sleep rough or stay in supported accommodation for longer than five nights before moving into an affordable, safe, decent, permanent home with the support required to sustain it.<br>
+                        <b>Target 3</b>: The Western Australian rate of homelessness (including couch surfing and insecure tenure) will have been halved from its 2016 level.<br>
+                        <b>Target 5</b>: The current very large gap between the rate of Aboriginal homelessness and non-Aboriginal homelessness in Western Australia will be eliminated so that the rate of Aboriginal homelessness is no higher than the rate of non-Aboriginal homelessness.<br>
+                        <b>Target 6</b>: Those experiencing homelessness and those exiting homelessness with physical health, mental health, and alcohol and other drug use dependence needs will have their needs addressed. This will result in a halving of mortality rates among those who have experienced homelessness and a halving in public hospital costs one year on for those exiting homelessness.<br>
+                        <b>Target 7</b>: Those experiencing homelessness and those exiting homelessness will be supported to strengthen their economic, social, family and community connections leading to stronger well-being and quality of life outcomes. Employment among those experiencing homelessness will be significantly increased. Over half of those exiting homelessness will be employed within three years of moving into housing. Well-being and quality of life will equal those of the general population in the same timeframe.
+                    </td>
+                    <td width="50%">
+                        <b>Target 4</b>: The underlying causes that result in people becoming homeless have been met head-on, resulting in a reduction by more than half in the inflow of people and families into homelessness in any one year.<br>
+                        <b>Target 8</b>: A strong, collaborative and adaptive network of services and responses across the community services, health, mental health, justice, and education sectors will exist working collectively to address the underlying causes of homelessness and meeting the needs of those who become homeless.<br>
+                        <b>Target 9</b>: Measurement, accountability and governance mechanisms that are robust, transparent and open to external review will be operating, providing an on-going means for assessing progress in meeting the goals of Ending Homelessness in Western Australia in 10 years.<br>
+                    </td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="2">
+                        <p2><b>Source</b>: WAAEH Strategy to End Homelessness (2018)</p2>
+                    </td>
+                </tr>
+                </tfoot>
+            </table>
+        </center>
+    </div>
+    <div id="Target-1">
+        <h2>Target 1</h2>
+        <blockquote class="blockquote">
+            <h4><i>Western Australia will have ended all forms of chronic homelessness including chronic rough sleeping</i></h4>
+        </blockquote>
+        <br>
+        <p>The rates of access to SHS reflect the nature of the service system, including the availability and accessibility of services and the types of supports provided. The SHS data indicates that, relative to national rates, Western Australians accessing SHS do so for much shorter support periods and are accommodated for far fewer nights. In 2019-20, the median length of support received was 22 days in Western Australia and 51 days nationally.</p><br>
+        <center>
+            <table class="normal-table">
+                <caption style="text-align:left"><p3>Table. Median length of support, days in support periods and nights accommodated, 2019/20,  and 2020/21, Western Australia and Australia</p3></caption>
+                <thead>
+                <tr>
+                    <th></th>
+                    <th colspan="2" align="center"><p>2019/20</p></td>
+                    <th colspan="2" align="center"><p>2020/21</p></td>
+                </tr>
+                <tr>
+                    <th><p>Support</p></th>
+                    <th><p>Western Australia</p></th>
+                    <th><p>Australia</p></th>
+                    <th><p>Western Australia</p></th>
+                    <th><p>Australia</p></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><p>Median length of support (days)</p></td>
+                    <td><p>16</p></td>
+                    <td><p>43</p></td>
+                    <td><p>22</p></td>
+                    <td><p>51</p></td>
+                </tr>
+                <tr>
+                    <td><p>Median length of accommodation (nights)</p></td>
+                    <td><p>8</p></td>
+                    <td><p>28</p></td>
+                    <td><p>8</p></td>
+                    <td><p>31</p></td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="5">
+                        <p2><b>Source</b>: Specialist Homelessness Services Collection (AIHW, 2022). Specialist Homelessness Services Annual Report (cat no. HOU 322). <a href="https://www.aihw.gov.au/reports/homelessness-services/specialist-homelessness-services-annual-report/contents/summary" target="_blank">https://www.aihw.gov.au/reports/homelessness-services/specialist-homelessness-services-annual-report/contents/summary.</a></p2>
+                    </td>
+                </tr>
+                </tfoot>
+            </table>
+        </center>
+    </div>
+
+    <div id="Target-2">
+        <h2>Target 2</h2>
+        <blockquote class="blockquote">
+            <h4><i>No individual or family in Western Australia will sleep rough or stay in supported accommodation for longer than five nights before moving into an affordable, safe, decent, permanent home with the support required to sustain it</i></h4>
+        </blockquote>
+        <br>
+        <p>Target 2 requires further research before full operationalisation. Both the Australian Institute of Health and Welfare Specialist Homelessness Services Collection (SHSC) data and the Registry Week surveys administered by the AAEH Advance to Zero campaign can produce proxy measures to estimate how well we are approaching this target. The VI-SPDAT questionnaire administered during Registry Week by the AAEH collects information on individual and family housing situations (including sleeping rough or staying in supported accommodation). This could be combined with the responses to the following question, which asks ‘How long has it been since you lived in permanent, stable housing (with a secure lease/tenancy)?’ to determine the number of individuals or families who are sleeping rough or staying in supported accommodation for longer than five nights. Additionally, SHSC records include data on the number of nights clients spend in supported accommodation. While this does not include rough sleeping, the percentage of SHS clients spending more than five nights in supported accommodation could be a useful measure for this target. </p>
+        <br><br><br>
+    </div>
+
+    <div id="Target-3">
+        <h2>Target 3</h2>
+        <blockquote class="blockquote">
+            <h4><i>The Western Australian rate of homelessness (including couch surfing and insecure tenure) will have been halved from its 2016 level</i></h4>
+        </blockquote>
+    </div>
+
+    <div id="Target-3-Reducing-the-overall-rate-of-homelessness">
+        <h3>Reducing the overall rate of homelessness</h3>
+        <br>
+        <p3>Charts. Overall homelessness statistics and trends</p3>
+        <br>
+        <div class='tableauPlaceholder' id='viz1657401623787' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target3_16568893002690&#47;RateofhomelessnessinWA&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Target3_16568893002690&#47;RateofhomelessnessinWA' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target3_16568893002690&#47;RateofhomelessnessinWA&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657401623787');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='950px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='950px';} else { vizElement.style.width='100%';vizElement.style.height='1900px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        <br><br>
+        <div class='tableauPlaceholder' id='viz1657308522298' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target3-Housingtenureoutcomes&#47;Housingtenureoutcome-Experiencinghomelessness&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Target3-Housingtenureoutcomes&#47;Housingtenureoutcome-Experiencinghomelessness' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target3-Housingtenureoutcomes&#47;Housingtenureoutcome-Experiencinghomelessness&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657308522298');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='800px';vizElement.style.height='850px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        <br><br><br>
+    </div>
+
+    <div id="Target-4">
+        <h2>Target 4</h2>
+        <blockquote class="blockquote">
+            <h4><i>The underlying causes that result in people becoming homeless have been met head-on, resulting in a reduction by more than half in the inflow of people and families into homelessness in any one year</i></h4>
+        </blockquote>
+        <br><br>
+        <p>The causes of homelessness are complex, encompassing a broad range of individual and structural determinants, including housing availability and affordability, economic and employment opportunities (or lack thereof), physical and mental health outcomes, domestic and family violence, and social and community connections.</p>
+        <br><br>
+    </div>
+
+    <div id="Target-4-Housing-affordability">
+        <h3>Housing affordability</h3><br>
+        <p3>Table. Housing affordability statistics and trends</p3>
+        <button type="button" class="collapsible">Housing affordability</button>
+        <div class="tab-content">
+            <table class="normal-table">
+                <thead>
+                <tr>
+                    <th><p>Indicators</p></th>
+                    <th><p>Most current values</p></th>
+                    <th><p>Trend over time</p></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><p>Proportion experiencing household stress in Perth (2017 - 2020)<sup>1</sup></p></td>
+                    <td><p>10.7%</p></td>
+                    <td><p>Increasing</p></td>
+                </tr>
+                <tr>
+                    <td><p>Proportion of low-income rental households spending more than 30 per cent of their gross income on housing costs (2019-2020)<sup>2</sup></p></td>
+                    <td><p>Perth - 36.7%
+                        <br>
+                        Rest of state – 26.2%</p></td>
+                    <td><p>Decreasing</p></td>
+                </tr>
+                <tr>
+                    <td><p>Proportion of low income households remaining in housing stress from one year to the next (2017-2020)<sup>1</sup></p></td>
+                    <td><p>Australia – 48.3%</p></td>
+                    <td><p>Increasing</p></td>
+                </tr>
+                <tr>
+                    <td rowspan="4"><p>Housing affordability (2019-2020)<sup>2</sup></p></td>
+                    <td><p>Owner – 2.9%</p></td>
+                    <td><p>Stable</p></td>
+                </tr>
+                <tr>
+                    <td><p>Owner with a mortgage – 14.0%</p></td>
+                    <td><p>Decreasing</p></td>
+                </tr>
+                <tr>
+                    <td><p>Renter – private landlord – 17.4%</p></td>
+                    <td><p>Stable</p></td>
+                </tr>
+                <tr>
+                    <td><p>Renter – state of territory housing – 20.9%</p></td>
+                    <td><p>Decreasing</p></td>
+                </tr>
+                <tr>
+                    <td rowspan="4"><p>Home ownership (2019-2020)<sup>2</sup></p></td>
+                    <td><p>Owner without a mortgage – 26.6%</p></td>
+                    <td><p>Decreasing</p></td>
+                </tr>
+                <tr>
+                    <td><p>Owner with a mortgage – 42.7%</p></td>
+                    <td><p>Stable</p></td>
+                </tr>
+                <tr>
+                    <td><p>Renter – private landlord – 22.5%</p></td>
+                    <td><p>Decreasing</p></td>
+                </tr>
+                <tr>
+                    <td><p>Renter – state of territory housing – 2.8%</p></td>
+                    <td><p>Increasing</p></td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><p>Rental affordability index (Q2, 2020)<sup>3</sup></p></td>
+                    <td><p>Perth – Extremely unaffordable</p></td>
+                    <td><p>Decreasing</p></td>
+                </tr>
+                <tr>
+                    <td><p>Rest of Western Australia – Extremely unaffordable</p></td>
+                    <td><p>Decreasing</p></td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="3">
+                        <p2>
+                            <sup>1</sup>The Household, Income and Labour Dynamics in Australia (HILDA) Survey: General Release 20, 2022<br>
+                            <sup>2</sup>ABS 4130.0 – Housing Occupancy and Costs, 2019-20<br>
+                            <sup>3</sup>Rental Affordability Index, SGS Economics & Planning.<br>
+                        </p2>
+                    </td>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+        <br>
+        <p3>Charts. Housing affordability statistics and trends</p3>
+        <div class='tableauPlaceholder' id='viz1657401654181' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target4-Housingaffordability&#47;Housingstress&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Target4-Housingaffordability&#47;Housingstress' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target4-Housingaffordability&#47;Housingstress&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657401654181');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='850px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='850px';} else { vizElement.style.width='100%';vizElement.style.height='1000px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        <br><br>
+    </div>
+
+
+<div id="Target-4-Housing-supply">
+    <h3>Housing supply</h3>
+    <br>
+    <p3>Table. Housing supply statistics and trends</p3>
+     <button type="button" class="collapsible">Housing supply</button>
+    <div class="tab-content">
+
+        <table class="normal-table">
+            <thead>
+            <tr>
+                <th><p>Indicators</p></th>
+                <th><p>Most current values</p></th>
+                <th><p>Trend over time</p></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td rowspan="3"><p>Number of social housing dwellings (2021)<sup>1</sup></p></td>
+                <td><p>Indigenous community housing – 2,699</p></td>
+                <td><p>Decreasing</p></td>
+            </tr>
+            <tr>
+                <td><p>Community housing – 7,997</p></td>
+                <td><p>Stable</p></td>
+            </tr>
+            <tr>
+                <td><p>Public housing - 31,919</p></td>
+                <td><p>Decreasing</p></td>
+            </tr>
+            <tr>
+                <td><p>Number of applicants on waiting list (2021)<sup>1</sup></td>
+                <td><p>14,619</p></td>
+                <td><p>Stable</p></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><p>Waiting time to secure public housing accommodation (2020)<sup>2</sup></td>
+                <td><p>Average – 94 weeks</p></td>
+                <td><p>Stable</p></td>
+            </tr>
+            <tr>
+                <td><p>Median – 48 weeks</p></td>
+                <td><p>Stable</p></td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="3">
+                    <p2>
+                        <sup>1</sup>AIHW Housing assistance in Australia 2021<br>
+                        <sup>2</sup>Government of Western Australia Department of Communities, Housing Authority Annual Report 2019-20
+                    </p2>
+
+                </td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+    <br>
+    <p3>Charts. Housing supply statistics and trends</p3>
+    <div class='tableauPlaceholder' id='viz1657401670597' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target4-Housingsupply&#47;Housingsupply&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Target4-Housingsupply&#47;Housingsupply' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target4-Housingsupply&#47;Housingsupply&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657401670597');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1377px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <br><br>
+</div>
+
+<div id="Target-4-Poverty-and-unemployment">
+    <h3>Poverty and unemployment</h3>
+    <br>
+    <p3>Table. Poverty statistics and trends</p3>
+        <button type="button" class="collapsible">Poverty</button>
+    <div class="tab-content">
+        <table class="normal-table">
+            <thead>
+            <tr>
+                <th><p>Indicators</p></th>
+                <th><p>Most current values</p></th>
+                <th><p>Trend over time</p></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td rowspan="2"><p>Western Australian poverty rates (2017 - 2018)<sup>1</sup></p></td>
+                <td><p>50% median income – 12.9%</p></td>
+                <td><p>Stable</p></td>
+            </tr>
+            <tr>
+                <td><p>60% median income – 18.5%</p></td>
+                <td><p>Stable</p></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><p>Unemployment rate (2022)<sup>2</sup></td>
+                <td><p>Youth – 6.3%</p></td>
+                <td><p>Increasing</p></td>
+            </tr>
+            <tr>
+                <td><p>General population – 3.0%</p></td>
+                <td><p>Increasing</p></td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="3">
+                    <p2>
+                        <sup>1</sup>Australian Council of Social Services and UNSW Rate of poverty by state/territory of residence.<br>
+                        <sup>2</sup>ABS 6020.0 – Labour Force, Australia.
+                    </p2>
+                </td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+    <br>
+    <p3>Charts. Poverty statistics and trends</p3>
+    <div class='tableauPlaceholder' id='viz1657401684857' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target4-Povertyandunemployment&#47;Povertyandunemployment&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Target4-Povertyandunemployment&#47;Povertyandunemployment' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target4-Povertyandunemployment&#47;Povertyandunemployment&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657401684857');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1027px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <br><br>
+</div>
+
+<div id="Target-4-Young-people-in-custody">
+    <h3>Young people in custody and out of home care</h3>
+    <br>
+    <p3>Table. Young people in custody and out-of-home care statistics and trends</p3>
+
+       <button type="button" class="collapsible">Young people in custody and out-of-home care</button>
+    <div class="tab-content">
+        <table class="normal-table">
+            <thead>
+            <tr>
+                <th><p>Indicators</p></th>
+                <th><p>Most current values</p></th>
+                <th><p>Trend over time</p></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td rowspan="2"><p>Youth detainees in custody (Sept 2020)<sup>1</sup></p></td>
+                <td><p>Aboriginal - 57 youth</p></td>
+                <td><p>Decreasing</p></td>
+            </tr>
+            <tr>
+                <td><p>Non-aboriginal - 26 youth</p></td>
+                <td><p>Decreasing</p></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><p>Children in out-of-home care (2020-2021)<sup>2</sup></td>
+                <td><p>Aboriginal – 64.7 per 1000</p></td>
+                <td><p>Stable</p></td>
+            </tr>
+            <tr>
+                <td><p>Non-aboriginal - 3.4 per 1000</p></td>
+                <td><p>Stable</p></td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="3">
+                    <p2>
+                        <sup>1</sup>Government of Western Australia Department of Justice, Corrective Services, 2021.<br>
+                        <sup>2</sup>AIHW Child Protection Australia 2020-21.
+                    </p2>
+                </td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+    <br>
+    <p3>Charts. Young people in custody and out-of-home care statistics and trends</p3>
+    <div class='tableauPlaceholder' id='viz1657401710789' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target4-Youngpeopleincustodyandoutofhomecare&#47;Youngpeopleincustodyandoutofhomecare&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Target4-Youngpeopleincustodyandoutofhomecare&#47;Youngpeopleincustodyandoutofhomecare' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target4-Youngpeopleincustodyandoutofhomecare&#47;Youngpeopleincustodyandoutofhomecare&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657401710789');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1327px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <br><br>
+</div>
+
+<div id="Target-4-Physical-and-mental-health">
+    <h3>Physical and mental health</h3>
+    <br>
+    <p3>Table. Physical and mental health statistics and trends</p3>
+
+
+    <button type="button" class="collapsible">Physical and mental health</button>
+    <div class="tab-content">
+        <table class="normal-table">
+            <thead>
+            <tr>
+                <th><p>Indicators</p></th>
+                <th><p>Most current values</p></th>
+                <th><p>Trend over time</p></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><p>People that report their health status as fair/poor (2017-2018)<sup>1</sup></p></td>
+                <td><p>Fair/poor - 12.0%</p></td>
+                <td><p>Decreasing</p></td>
+            </tr>
+            <tr>
+                <td><p>Proportion of persons with High/Very High psychological distress (2017-2018)<sup>1</sup></p></td>
+                <td><p>High/very high - 12.2%</p></td>
+                <td><p>Increasing</p></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><p>Hospitalisation rates for a principal diagnosis of mental health related condition (2016-17)<sup>2</sup></p></td>
+                <td><p>Aboriginal - 33.9 per 1000</p></td>
+                <td><p>Stable</p></td>
+            </tr>
+            <tr>
+                <td><p>Non-aboriginal - 11.9 per 1000</p></td>
+                <td><p>Stable</p></td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="3">
+                    <p2>
+                        <sup>1</sup>ABS 4364.0.55.001 - National Health Survey: First Results, 2017-18.<br>
+                        <sup>2</sup>AIHW, 2020. Aboriginal and Torres Strait Islander Health Performance Framework 2020
+                    </p2>
+                </td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+    <br>
+    <p3>Charts. Physical and mental health statistics and trends</p3>
+    <div class='tableauPlaceholder' id='viz1657402025643' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target4-Physicalandmentalhealth&#47;Self-reportedMHstatus&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Target4-Physicalandmentalhealth&#47;Self-reportedMHstatus' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target4-Physicalandmentalhealth&#47;Self-reportedMHstatus&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657402025643');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='850px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='850px';} else { vizElement.style.width='100%';vizElement.style.height='1300px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <br><br>
+</div>
+
+<div id="Target-4-Alcohol-and-drug-use">
+    <h3>Alcohol and drug use</h3>
+    <br>
+    <p3>Table. Alcohol and drug use statistics and trends</p3>
+    <br>
+     <button type="button" class="collapsible">Alcohol and drug use</button>
+    <div class="tab-content">
+        <table class="normal-table">
+            <thead>
+            <tr>
+                <th><p>Indicators</p></th>
+                <th><p>Most current values</p></th>
+                <th><p>Trend over time</p></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td rowspan="3"><p>Alcohol Consumption in Western Australia, people aged 14 years or older (2019)<sup>1</sup></p></td>
+                <td><p>Never drunk – 17.7%</p></td>
+                <td><p>Increasing</p></td>
+            </tr>
+            <tr>
+                <td><p>Drink daily – 5.0%</p></td>
+                <td><p>Decreasing</p></td>
+                </tr>
+            <tr>
+                <td><p>Ex-drinker – 9.0%</p></td>
+                <td><p>Decreasing</p></td>
+            </tr>
+            <tr>
+                <td rowspan="3"><p>Alcohol lifetime risk status, people aged 14 years or older (2019)<sup>1</sup></p></td>
+                <td><p>Lifetime risk – 17.0%</p></td>
+                <td><p>Decreasing</p></td>
+            </tr>
+            <tr>
+                <td><p>Abstainers – 27.0%</p></td>
+                <td><p>Increasing</p></td>
+                </tr>
+            <tr>
+                <td><p>Low risk – 44.4%</p></td>
+                <td><p>Stable</p></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><p>Illicit Drug use (2019)<sup>1</sup></p></td>
+                <td><p>Ever used – 43.0%</p></td>
+                <td><p>Stable</p></td>
+            </tr>
+            <tr>
+                <td><p>Used in last 12 months – 16.4%</p></td>
+                <td><p>Stable</p></td>
+                </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="3">
+                    <p2>
+                        <sup>1</sup>AIHW 2021. Alcohol, tobacco & other drugs in Australia
+                    </p2>
+                </td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+    <br>
+    <p3>Charts. Alcohol and drug use statistics and trends</p3>
+    <div class='tableauPlaceholder' id='viz1657401749082' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target4-Alcoholanddruguse&#47;Ratesofalcoholconsumptionandrisk&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Target4-Alcoholanddruguse&#47;Ratesofalcoholconsumptionandrisk' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target4-Alcoholanddruguse&#47;Ratesofalcoholconsumptionandrisk&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657401749082');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='850px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='850px';} else { vizElement.style.width='100%';vizElement.style.height='1400px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <br><br>
+</div>
+
+<div id="Target-4-Domestic-violence">
+    <h3>Domestic violence</h3>
+    <br>
+    <p3>Table. Domestic violence statistics and trends</p3>
+
+       <button type="button" class="collapsible">Domestic violence</button>
+    <div class="tab-content">
+        <table class="normal-table">
+            <thead>
+            <tr>
+                <th><p>Indicators</p></th>
+                <th><p>Most current values</p></th>
+                <th><p>Trend over time</p></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td rowspan="3"><p>Family violence offences in Western Australia (2021-22)<sup>1</sup></p></td>
+                <td><p>Assault – 18,359</p></td>
+                <td><p>Decreasing</p></td>
+            </tr>
+            <tr>
+                <td><p>Threatening behaviour – 2,846</p></td>
+                <td><p>Decreasing</p></td>
+                </tr>
+            <tr>
+                <td><p>Breach of violence restraining order – 8,341</p></td>
+                <td><p>Decreasing</p></td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="3">
+                    <p2>
+                        <sup>1</sup>Western Australia Police Force, 2022. Crime Statistics
+                    </p2>
+                </td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+    <br>
+    <p3>Charts. Domestic violence statistics and trends</p3>
+    <div class='tableauPlaceholder' id='viz1657401762100' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target4-Domesticviolence&#47;Domesticandfamilyviolence&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Target4-Domesticviolence&#47;Domesticandfamilyviolence' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target4-Domesticviolence&#47;Domesticandfamilyviolence&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657401762100');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1327px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <br><br><br>
+</div>
+
+<div id="Target-5">
+    <h2>Target 5</h2>
+    <blockquote class="blockquote">
+        <h4><i>The current very large gap between the rate of Aboriginal homelessness and non-Aboriginal homelessness in Western Australia will be eliminated so that the rate of Aboriginal homelessness is no higher than the rate of non-Aboriginal homelessness</i></h4>
+    </blockquote>
+</div>
+
+<div id="Target-5-Reducing-Aboriginal-homelessness">
+    <h3>Reducing Aboriginal homelessness</h3>
+    <br>
+    <p3>Charts. Aboriginal homelessness statistics and trends</p3>
+    <br>
+    <div class='tableauPlaceholder' id='viz1657401779217' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target5&#47;RateofhomelessnessinWAinAboriginalandorTorresStraitIslanderpersons&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Target5&#47;RateofhomelessnessinWAinAboriginalandorTorresStraitIslanderpersons' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target5&#47;RateofhomelessnessinWAinAboriginalandorTorresStraitIslanderpersons&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657401779217');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='950px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='950px';} else { vizElement.style.width='100%';vizElement.style.height='1900px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <br><br>
+</div>
+
+<div id="Target-5-Reducing-regional-homelessness">
+    <h3>Reducing regional homelessness</h3>
+    <br>
+    <p3>Charts. Regional homelessness statistics and trends</p3>
+    <br>
+    <div class='tableauPlaceholder' id='viz1657401788550' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target5-Regional&#47;ProportionofSHSclientsinregionalWA&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Target5-Regional&#47;ProportionofSHSclientsinregionalWA' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target5-Regional&#47;ProportionofSHSclientsinregionalWA&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657401788550');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='850px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='850px';} else { vizElement.style.width='100%';vizElement.style.height='950px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <br><br><br>
+</div>
+
+<div id="Target-6">
+    <h2>Target 6</h2>
+    <blockquote class="blockquote">
+        <h4><i>Those experiencing homelessness and those exiting homelessness with physical health, mental health, and alcohol and other drug use dependence needs will have their needs addressed. This will result in a halving of mortality rates among those who have experienced homelessness and a halving in public hospital costs one year on for those exiting homelessness</i></h4>
+    </blockquote>
+</div>
+
+<div id="Target-6-Addressing-the-needs">
+    <h3>Addressing the needs of those experiencing homelessness</h3>
+    <br>
+    <div class='tableauPlaceholder' id='viz1657401799869' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target6&#47;SHSclientsleavingsupportperiodswithneedsmet&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Target6&#47;SHSclientsleavingsupportperiodswithneedsmet' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Target6&#47;SHSclientsleavingsupportperiodswithneedsmet&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657401799869');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <br><br>
+</div>
+
+<div id="Target-7">
+    <h2>Target 7</h2>
+    <br><br>
+</div>
+
+<div id="Target-8">
+    <h2>Target 8</h2>
+    <br><br>
+</div>
+
+<div id="Target-9">
+    <h2>Target 9</h2>
+    <br><br>
+</div>
+
+<div class='footer'>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/up.png"></button>
+
+    <img src="csi-uwa logo.png" width="310" height="90" align="right">
+
+</div>
+
+
+</div>
+
+<!--END of content-->
+<script>
+
+//collapsible js
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      } else {
+      content.style.display = "block";
+      }
+      });
+      }
+
+$( ".collapsible div" ).mouseover(function() { $(this).trigger('click'); });
+
+//scroll to top button
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+  </body>
+</html>

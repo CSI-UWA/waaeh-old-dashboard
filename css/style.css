@@ -131,7 +131,7 @@ General CSS
 	width: 900px;
 	padding-top: 20px;
 	padding-left: 15px;
-	margin-left: 300px;
+	margin-left: 330px;
 	z-index: 1;
 }
 
@@ -242,9 +242,9 @@ Menu CSS
   display: block;
   cursor: pointer;
   min-height: 2rem;
-  line-height: 3rem;
+  line-height: 1.5rem;
   padding: 0 1rem;
-  font-size: 15pt;
+  font-size: 14.5pt;
 
 }
 
@@ -261,15 +261,15 @@ Menu CSS
 #menu-wrapper {
 	position:relative;
 	height: 100%;
-	padding-top: 50px;
+	padding-top: 100px;
 	float: left;
 	width: 250px;
 }
 
 #main-menu {
 	position: fixed;
-	width: 250px;
-	padding-top: 50px;
+	width: 270px;
+	padding-top: 100px;
 	padding-right: 30px;
 	padding-left:20px;
 	background-color: #f0f0f0;

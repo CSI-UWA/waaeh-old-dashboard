@@ -13,6 +13,15 @@ Designed & Handcrafted by 92five for 92five.net
 *******************************************************************
 ******************************************************************/
 									
+#demobox {
+	color:white;
+	/*background-color: #0CC0DF;*/
+	background-color: #077e92;
+	font-family: Arial;
+	font-size: 12pt;
+	padding:10px;
+	border: 2px solid #000000;
+}
 									
 /******************************************************************
 This is the CSS Reset
@@ -112,6 +121,26 @@ Import fonts
     font-style: normal;
 }
 
+@font-face {
+    font-family: FrankGoth;
+    src: url("../font/franklingothic/FranklinGothic.ttf") format('truetype');
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Arial;
+    src: url("../font/arial/arial.ttf") format('truetype');
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Teuton;
+    src: url("../font/teuton/TeutonFett.ttf") format('truetype');
+	font-weight: normal;
+    font-style: normal;
+}
 
 /******************************************************************
 General CSS
@@ -143,7 +172,14 @@ General CSS
 
 
 p {
-	font-family: Apud-Roman;
+	font-family: Teuton;
+	line-height: 2em;
+	color: #1c1a1a;
+	font-size: 12pt;
+}
+
+p {
+	font-family: Arial;
 	line-height: 2em;
 	color: #1c1a1a;
 	font-size: 12pt;
@@ -210,6 +246,7 @@ h6 {
 	text-decoration: none;
 	font-size: 10pt;
 }
+
 
 sup {
     font-size:xx-small; vertical-align:super;
@@ -435,14 +472,14 @@ Tables and graphs
     border-collapse: collapse;
     margin: 30px 30px;
     font-size: 12pt;
-    font-family: Apud-Roman;
+    font-family: Arial;
     min-width: 650px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     line-height: 1.6;
 }
 
 .styled-table thead tr {
-    background-color: #b22525;
+    background-color: #f04c41;
     color: #ffffff;
     font-weight:bold;
 }
@@ -468,6 +505,133 @@ Tables and graphs
     background: #f3f3f3;
 }
 
+.styled-table2 {
+    border-collapse: collapse;
+    margin: 30px 30px;
+    font-size: 12pt;
+    font-family: Arial;
+    min-width: 650px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    line-height: 1.6;
+}
+
+.styled-table2 thead tr {
+    background-color: #c59460;
+    color: #ffffff;
+    font-weight:bold;
+}
+
+.styled-table2 th,
+.styled-table2 td {
+    padding: 12px 15px;
+}
+
+.styled-table2 tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table2 tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table2 tbody tr:last-of-type {
+    border-bottom: 2px solid #b5b5b5;
+}
+
+.styled-table2 tbody.row-wrapper tr:hover{
+    background: #f3f3f3;
+}
+
+.styled-table3 {
+    border-collapse: collapse;
+    margin: 30px 30px;
+    font-size: 12pt;
+    font-family: Arial;
+    min-width: 650px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    line-height: 1.6;
+}
+
+.styled-table3 thead tr {
+    background-color: #6d6863;
+    color: #ffffff;
+    font-weight:bold;
+}
+
+.styled-table3 th,
+.styled-table3 td {
+    padding: 12px 15px;
+}
+
+.styled-table3 tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table3 tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table3 tbody tr:last-of-type {
+    border-bottom: 2px solid #b5b5b5;
+}
+
+.styled-table3 tbody.row-wrapper tr:hover{
+    background: #f3f3f3;
+}
+
+.styled-table4 {
+    border-collapse: collapse;
+    margin: 30px 30px;
+    font-size: 12pt;
+    font-family: Apud-Roman;
+    min-width: 650px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    line-height: 1.6;
+}
+
+.styled-table4 thead tr {
+    background-color: #f04c41;
+    color: #ffffff;
+    font-weight:bold;
+}
+
+.styled-table4 th,
+.styled-table4 td {
+    padding: 12px 15px;
+}
+
+.styled-table4 tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table4 tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table4 tbody tr:last-of-type {
+    border-bottom: 2px solid #b5b5b5;
+}
+
+.styled-table4 tbody.row-wrapper tr:hover{
+    background: #f3f3f3;
+}
+
 .tableauPlaceholder {
 z-index: 1;
 	margin:10px;
+}
+
+/*
+div.text-box {
+ width: 80%;
+ padding: 10px;
+ border: 5px solid blue;
+ boarder-style: solid;
+ boarder-color: blue;
+ margin: 0;
+}*/
+
+p.parabox {
+	border: medium solid blue;
+}
+
